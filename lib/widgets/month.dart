@@ -1,11 +1,14 @@
 import 'dart:math' as math;
 
 import 'package:flutter/material.dart';
+import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 import 'package:gbg_events_flutter/state/calendar.dart';
 import 'package:gbg_events_flutter/utils/date.dart';
+import 'package:gbg_events_flutter/utils/layout.dart';
 import 'package:gbg_events_flutter/widgets/day.dart';
 import 'package:gbg_events_flutter/widgets/weekday.dart';
+import 'package:gbg_events_flutter/widgets/widget_size.dart';
 import 'package:sliver_tools/sliver_tools.dart';
 
 class _SliverAppBarDelegate extends SliverPersistentHeaderDelegate {
@@ -26,8 +29,12 @@ class _SliverAppBarDelegate extends SliverPersistentHeaderDelegate {
   @override
   Widget build(
       BuildContext context, double shrinkOffset, bool overlapsContent) {
+    bool singleColumn = isSingleColumn(context);
+
     double basePadding = MediaQuery.of(context).size.width * 0.1;
-    double padding = math.max(basePadding - shrinkOffset, basePadding / 2.5);
+    double padding = math.max(
+        basePadding - shrinkOffset, singleColumn ? 0 : basePadding / 2.5);
+
     if (shrinkOffset > 10) {
       return Padding(
         padding: EdgeInsets.only(left: padding),
@@ -104,60 +111,78 @@ class _SliverAppBarDelegate extends SliverPersistentHeaderDelegate {
 
 class MonthHeader extends StatelessWidget {
   final Month month;
+  final Size gridSize;
 
-  const MonthHeader({Key? key, required this.month}) : super(key: key);
+  const MonthHeader({Key? key, required this.month, required this.gridSize})
+      : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return SliverPersistentHeader(
       delegate: _SliverAppBarDelegate(
         date: month.date,
-        collapsedHeight: 50,
-        expandedHeight: 800,
+        collapsedHeight: 100,
+        expandedHeight: gridSize.height,
       ),
     );
   }
 }
 
-class MonthWidget extends StatelessWidget {
+class MonthWidget extends HookWidget {
   final Month month;
 
   const MonthWidget({Key? key, required this.month}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
+    final size = useState(const Size(0, 0));
+    bool singleColumn = isSingleColumn(context);
+    double basePadding = MediaQuery.of(context).size.width * 0.1;
+
     return SliverStack(
       children: [
-        MonthHeader(month: month),
+        MonthHeader(
+          month: month,
+          gridSize: size.value,
+        ),
         MultiSliver(
           children: [
             Padding(
-              padding: EdgeInsets.symmetric(
-                vertical: 120,
-                horizontal: MediaQuery.of(context).size.width * 0.1,
+              padding: EdgeInsets.only(
+                top: 120,
+                left: singleColumn ? basePadding * 2 : basePadding,
+                right: singleColumn ? 25 : basePadding,
               ),
-              child: StaggeredGridView.count(
-                crossAxisCount: 7,
-                crossAxisSpacing: 20,
-                shrinkWrap: true,
-                staggeredTiles: [
-                  ...List.generate(7, (_) => const StaggeredTile.fit(1)),
-                  ...month.days.map((_) => const StaggeredTile.fit(1))
-                ],
-                children: [
-                  ...List.generate(
-                    7,
-                    (index) => WeekDay(
-                      date: month.start.add(Duration(days: index)),
-                    ),
-                  ),
-                  ...month.days.map(
-                    (d) => DayWidget(
-                      day: d,
-                      previousMonth: !isSameMonth(month.date, d.date),
-                    ),
-                  )
-                ],
+              child: WidgetSize(
+                onChange: (Size s) {
+                  size.value = s;
+                },
+                child: StaggeredGridView.count(
+                  crossAxisCount: 7,
+                  crossAxisSpacing: 20,
+                  shrinkWrap: true,
+                  staggeredTiles: [
+                    if (!singleColumn)
+                      ...List.generate(7, (_) => const StaggeredTile.fit(1)),
+                    ...month.days
+                        .map((_) => StaggeredTile.fit(singleColumn ? 7 : 1))
+                  ],
+                  children: [
+                    if (!singleColumn)
+                      ...List.generate(
+                        7,
+                        (index) => WeekDay(
+                          date: month.start.add(Duration(days: index)),
+                        ),
+                      ),
+                    ...month.days.map(
+                      (d) => DayWidget(
+                        day: d,
+                        previousMonth: !isSameMonth(month.date, d.date),
+                      ),
+                    )
+                  ],
+                ),
               ),
             ),
           ],
