@@ -1,0 +1,60 @@
+name: gbg_events_flutter
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  provider: ^6.0.1
+  intl: ^0.17.0
+  sliver_tools: ^0.2.5
+  flutter_staggered_grid_view: ^0.4.1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: Cormorant
+      fonts:
+        - asset: assets/fonts/Cormorant-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Cormorant-Regular.ttf
+        - asset: assets/fonts/Cormorant-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Cormorant-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Cormorant-Bold.ttf
+          weight: 700
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/Montserrat-Thin.ttf
+          weight: 100
+        - asset: assets/fonts/Montserrat-ExtraLight.ttf
+          weight: 200
+        - asset: assets/fonts/Montserrat-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Montserrat-Regular.ttf
+        - asset: assets/fonts/Montserrat-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Montserrat-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Montserrat-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Montserrat-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/Montserrat-Black.ttf
+          weight: 900
+  
