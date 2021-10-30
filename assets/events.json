@@ -1,0 +1,2828 @@
+{ "items":[
+  {
+    "artist": "The Sound of Music",
+    "venue": "Lisebergsteatern",
+    "date": "2021-11-21 18:00",
+    "price": "485/695 :-",
+    "link": ""
+  },
+  {
+    "artist": "Brainwasher + R.A.T.S. + m.fl.",
+    "venue": "Fängelset Härlanda",
+    "date": "2021-10-29 18:00",
+    "price": "100 :-",
+    "link": "Boka!"
+  },
+  {
+    "artist": "Troublemakers",
+    "venue": "Musikens Hus",
+    "date": "2021-10-29 20:00",
+    "price": "300 :-",
+    "link": ""
+  },
+  {
+    "artist": "Mathias, Peter & Christoffer",
+    "venue": "Porter Pelles",
+    "date": "2021-10-29 19:00",
+    "price": "225 :-",
+    "link": ""
+  },
+  {
+    "artist": "Bloodbound + Tungsten",
+    "venue": "Valand",
+    "date": "2021-10-29 20:00",
+    "price": "335 :-",
+    "link": ""
+  },
+  {
+    "artist": "Cities of Mars",
+    "venue": "The Abyss",
+    "date": "2021-10-29 19:00",
+    "price": "140 :-",
+    "link": ""
+  },
+  {
+    "artist": "Solen",
+    "venue": "Nefertiti",
+    "date": "2021-10-30 19:00",
+    "price": "250 :-",
+    "link": ""
+  },
+  {
+    "artist": "BADA",
+    "venue": "Folk",
+    "date": "2021-10-30 21:00",
+    "price": "150 :-",
+    "link": ""
+  },
+  {
+    "artist": "Yellowjackets",
+    "venue": "Valand",
+    "date": "2021-10-30 20:00",
+    "price": "435 :-",
+    "link": ""
+  },
+  {
+    "artist": "Musikgruppen KAL",
+    "venue": "Porter Pelles",
+    "date": "2021-10-30 19:00",
+    "price": "200 :-",
+    "link": ""
+  },
+  {
+    "artist": "GWO: Favoritsånger från Pippi, Emil & Madicken",
+    "venue": "Betlehemskyrkan",
+    "date": "2021-10-30 15:00",
+    "price": "50/100 :-",
+    "link": ""
+  },
+  {
+    "artist": "Proms 2021 (2020) - Nytt datum!",
+    "venue": "Konserthuset",
+    "date": "2021-10-30 15:00",
+    "price": "175/465 :-",
+    "link": ""
+  },
+  {
+    "artist": "Florence Valentin - Inställt!",
+    "venue": "Pustervik",
+    "date": "2021-10-30 18:30",
+    "price": "375 :-",
+    "link": ""
+  },
+  {
+    "artist": "Thorbjørn Risager & The Black Tornado",
+    "venue": "Valand",
+    "date": "2021-10-30 20:00",
+    "price": "360 :-",
+    "link": ""
+  },
+  {
+    "artist": "The Bitter and Sick and the Die Alones",
+    "venue": "Café Hängmattan",
+    "date": "2021-10-30 21:00",
+    "price": "120 :-",
+    "link": ""
+  },
+  {
+    "artist": "Horisont + Hot Breath",
+    "venue": "Pustervik",
+    "date": "2021-10-30 20:00",
+    "price": "175 :-",
+    "link": ""
+  },
+  {
+    "artist": "Muay Thai for Life",
+    "venue": "Partille Arena",
+    "date": "2021-10-31 16:00",
+    "price": "329-729 :-",
+    "link": ""
+  },
+  {
+    "artist": "Klass II + Boy with Apple",
+    "venue": "2:a Långg. Skivhandel",
+    "date": "2021-10-31 16:30",
+    "price": "110 :-",
+    "link": ""
+  },
+  {
+    "artist": "Johnossi - Nya datum!",
+    "venue": "Pustervik",
+    "date": "2021-11-01 19:00",
+    "price": "420 :-",
+    "link": ""
+  },
+  {
+    "artist": "Pål Nyberg Ensemble",
+    "venue": "Valand",
+    "date": "2021-11-02 20:00",
+    "price": "235-275 :-",
+    "link": ""
+  },
+  {
+    "artist": "Forum för Posei och Prosa",
+    "venue": "Musikens Hus",
+    "date": "2021-11-03 19:00",
+    "price": "90/60 :-",
+    "link": "Boka!"
+  },
+  {
+    "artist": "Semst",
+    "venue": "Pustervik",
+    "date": "2021-11-03 19:00",
+    "price": "325 :-",
+    "link": ""
+  },
+  {
+    "artist": "Fleshgod Apocalypse",
+    "venue": "Valand",
+    "date": "2021-11-04 19:00",
+    "price": "395 :-",
+    "link": ""
+  },
+  {
+    "artist": "Vardagsmat",
+    "venue": "Lorensbergsteatern",
+    "date": "2021-11-04 19:30",
+    "price": "495 :-",
+    "link": ""
+  },
+  {
+    "artist": "Avantgardet",
+    "venue": "Nefertiti",
+    "date": "2021-11-04 19:00",
+    "price": "265 :-",
+    "link": ""
+  },
+  {
+    "artist": "Ida Bang & The Blue Tears",
+    "venue": "Valand",
+    "date": "2021-11-04 20:00",
+    "price": "295-335 :-",
+    "link": ""
+  },
+  {
+    "artist": "Vissa somnar helt: Anders Teglund & Sara Granér",
+    "venue": "Folkteatern",
+    "date": "2021-11-05 19:30",
+    "price": "150 :-",
+    "link": ""
+  },
+  {
+    "artist": "Dan Hylander & Janne Bark",
+    "venue": "Porter Pelles",
+    "date": "2021-11-05 19:00",
+    "price": "460 :-",
+    "link": ""
+  },
+  {
+    "artist": "E-Type + Arvingarna + Da Buzz + Markoolio",
+    "venue": "Partille Arena",
+    "date": "2021-11-05 17:00",
+    "price": "520 :-",
+    "link": ""
+  },
+  {
+    "artist": "Maja Francis",
+    "venue": "Pustervik",
+    "date": "2021-11-05 21:00",
+    "price": "250 :-",
+    "link": ""
+  },
+  {
+    "artist": "En kväll med Petter - Inställt!",
+    "venue": "Konserthuset",
+    "date": "2021-11-05 19:30",
+    "price": "475-675 :-",
+    "link": ""
+  },
+  {
+    "artist": "Adaam + Robin Kadir",
+    "venue": "Trädgår´n",
+    "date": "2021-11-05 23:00",
+    "price": "220 :-",
+    "link": ""
+  },
+  {
+    "artist": "Michelle & The Diamonds",
+    "venue": "Porter Pelles",
+    "date": "2021-11-06 19:00",
+    "price": "255 :-",
+    "link": ""
+  },
+  {
+    "artist": "Oscar Zia",
+    "venue": "Nefertiti",
+    "date": "2021-11-06 19:00",
+    "price": "295 :-",
+    "link": ""
+  },
+  {
+    "artist": "Hardcore Superstar",
+    "venue": "Pustervik",
+    "date": "2021-11-06 19:00",
+    "price": "350 :-",
+    "link": ""
+  },
+  {
+    "artist": "Andra Generationen",
+    "venue": "Valand",
+    "date": "2021-11-06 20:00",
+    "price": "285-325 :-",
+    "link": ""
+  },
+  {
+    "artist": "Violator 30 - Nytt datum!",
+    "venue": "Musikens Hus",
+    "date": "2021-11-06 18:00",
+    "price": "145 :-",
+    "link": ""
+  },
+  {
+    "artist": "Etran de L´Air + Kiko Dinucci",
+    "venue": "Folkteatern",
+    "date": "2021-11-06 19:30",
+    "price": "100/150 :-",
+    "link": ""
+  },
+  {
+    "artist": "CHIVVY",
+    "venue": "Kronhuset",
+    "date": "2021-11-06 20:00",
+    "price": "195 :-",
+    "link": "Boka!"
+  },
+  {
+    "artist": "Mimitabu + Fabric Union + TTCM",
+    "venue": "Cinnober",
+    "date": "2021-11-06 14:00",
+    "price": "150/100 :-",
+    "link": "Boka!"
+  },
+  {
+    "artist": "Parham",
+    "venue": "Trädgår´n",
+    "date": "2021-11-06 23:00",
+    "price": "350 :-",
+    "link": ""
+  },
+  {
+    "artist": "The Legends: Movie & TV Special - Nytt datum!",
+    "venue": "Konserthuset",
+    "date": "2021-11-07 17:00",
+    "price": "450 :-",
+    "link": ""
+  },
+  {
+    "artist": "Jonathan Johansson - Nytt datum!",
+    "venue": "Pustervik",
+    "date": "2021-11-07 19:00",
+    "price": "300 :-",
+    "link": ""
+  },
+  {
+    "artist": "Biorn Quartet",
+    "venue": "Valand",
+    "date": "2021-11-07 19:00",
+    "price": "195-235 :-",
+    "link": ""
+  },
+  {
+    "artist": "Victoria Tolstoy & Jacob Karlzon",
+    "venue": "Stenhammarsalen",
+    "date": "2021-11-08 19:30",
+    "price": "162-405 :-",
+    "link": ""
+  },
+  {
+    "artist": "Sven Ingvars",
+    "venue": "Lorensbergsteatern",
+    "date": "2021-11-08 19:30",
+    "price": "600 :-",
+    "link": ""
+  },
+  {
+    "artist": "Tomas Von Brömssen & Jassorkestern",
+    "venue": "Valand",
+    "date": "2021-11-09 20:00",
+    "price": "295-335 :-",
+    "link": ""
+  },
+  {
+    "artist": "Little Dragon",
+    "venue": "Pustervik",
+    "date": "2021-11-10 19:00",
+    "price": "285 :-",
+    "link": ""
+  },
+  {
+    "artist": "Axel Schylström: Bränd",
+    "venue": "Stenhammarsalen",
+    "date": "2021-11-11 19:00",
+    "price": "295 :-",
+    "link": ""
+  },
+  {
+    "artist": "Bränd - Nytt datum!",
+    "venue": "Stenhammarsalen",
+    "date": "2021-11-11 19:00",
+    "price": "295 :-",
+    "link": ""
+  },
+  {
+    "artist": "Fredrik Lindström: Mänskligheten - Nya datum!",
+    "venue": "Lorensbergsteatern",
+    "date": "2021-11-11 19:30",
+    "price": "560 :-",
+    "link": ""
+  },
+  {
+    "artist": "Batushka + Belphegor",
+    "venue": "Pustervik",
+    "date": "2021-11-11 19:00",
+    "price": "350 :-",
+    "link": ""
+  },
+  {
+    "artist": "En kväll med Cornelis",
+    "venue": "Musikens Hus",
+    "date": "2021-11-11 20:00",
+    "price": "90 :-",
+    "link": ""
+  },
+  {
+    "artist": "Anna Wennerberg Band",
+    "venue": "Porter Pelles",
+    "date": "2021-11-12 19:00",
+    "price": "200 :-",
+    "link": ""
+  },
+  {
+    "artist": "Jung",
+    "venue": "Trädgår´n",
+    "date": "2021-11-12 19:00",
+    "price": "405 :-",
+    "link": ""
+  },
+  {
+    "artist": "Rövarna",
+    "venue": "Folkteatern",
+    "date": "2021-11-12 19:00",
+    "price": "160-280 :-",
+    "link": ""
+  },
+  {
+    "artist": "Helen Sjöholm: En ny tid",
+    "venue": "Konserthuset",
+    "date": "2021-11-12 19:30",
+    "price": "375-760 :-",
+    "link": ""
+  },
+  {
+    "artist": "The Last Resort + Raka Rør + Sally & The Monkey",
+    "venue": "Musikens Hus",
+    "date": "2021-11-12 21:00",
+    "price": "175 :-",
+    "link": ""
+  },
+  {
+    "artist": "Tema Champagne",
+    "venue": "Porter Pelles",
+    "date": "2021-11-12 18:00",
+    "price": "795 :-",
+    "link": ""
+  },
+  {
+    "artist": "Evergrey",
+    "venue": "Pustervik",
+    "date": "2021-11-12 19:00",
+    "price": "385 :-",
+    "link": ""
+  },
+  {
+    "artist": "Da Tweekaz + GPF + Mandy + Sound Rush",
+    "venue": "Trädgår´n",
+    "date": "2021-11-13 22:00",
+    "price": "420/620 :-",
+    "link": ""
+  },
+  {
+    "artist": "Mats Westling & Band",
+    "venue": "Pustervik",
+    "date": "2021-11-13 18:00",
+    "price": "175 :-",
+    "link": ""
+  },
+  {
+    "artist": "Ellen Krauss",
+    "venue": "Nefertiti",
+    "date": "2021-11-13 18:00",
+    "price": "220 :-",
+    "link": ""
+  },
+  {
+    "artist": "Makthaverskan",
+    "venue": "Pustervik",
+    "date": "2021-11-13 20:00",
+    "price": "185 :-",
+    "link": ""
+  },
+  {
+    "artist": "Sister Soul",
+    "venue": "Valand",
+    "date": "2021-11-13 20:00",
+    "price": "295 :-",
+    "link": ""
+  },
+  {
+    "artist": "Gadds Blues Experience",
+    "venue": "Porter Pelles",
+    "date": "2021-11-13 19:00",
+    "price": "255 :-",
+    "link": ""
+  },
+  {
+    "artist": "Mipso",
+    "venue": "Pustervik",
+    "date": "2021-11-15 19:00",
+    "price": "225 :-",
+    "link": ""
+  },
+  {
+    "artist": "Old Time Relijun + Victor Herrero",
+    "venue": "Folk",
+    "date": "2021-11-16 19:30",
+    "price": "150 :-",
+    "link": ""
+  },
+  {
+    "artist": "Public Service Broadcasting",
+    "venue": "Pustervik",
+    "date": "2021-11-16 19:00",
+    "price": "290 :-",
+    "link": ""
+  },
+  {
+    "artist": "U.D.O.",
+    "venue": "Trädgår´n",
+    "date": "2021-11-16 19:30",
+    "price": "405 :-",
+    "link": ""
+  },
+  {
+    "artist": "Gotland Big Band: Aretha Franklin",
+    "venue": "Valand",
+    "date": "2021-11-16 20:00",
+    "price": "195-235 :-",
+    "link": ""
+  },
+  {
+    "artist": "Service broadcasting",
+    "venue": "Pustervik",
+    "date": "2021-11-16 19:00",
+    "price": "265 :-",
+    "link": ""
+  },
+  {
+    "artist": "The Simon & Garfunkel Story - Nytt datum!",
+    "venue": "Lorensbergsteatern",
+    "date": "2021-11-16 19:30",
+    "price": "595 :-",
+    "link": "Boka!"
+  },
+  {
+    "artist": "Orange Goblin + Burner",
+    "venue": "Frihamnen",
+    "date": "2021-11-16 19:00",
+    "price": "325 :-",
+    "link": ""
+  },
+  {
+    "artist": "Courtney Marie Andrews",
+    "venue": "Pustervik",
+    "date": "2021-11-17 19:00",
+    "price": "285 :-",
+    "link": ""
+  },
+  {
+    "artist": "Jason Timbuktu Diakité - Nytt datum!",
+    "venue": "Lorensbergsteatern",
+    "date": "2021-11-18 19:30",
+    "price": "330-590 :-",
+    "link": "Boka!"
+  },
+  {
+    "artist": "Steve Hackett: Genesis Revisited - Nytt datum!",
+    "venue": "Pustervik",
+    "date": "2021-11-18 19:00",
+    "price": "485 :-",
+    "link": ""
+  },
+  {
+    "artist": "Joona Toivanen",
+    "venue": "Valand",
+    "date": "2021-11-18 20:00",
+    "price": "165-205 :-",
+    "link": ""
+  },
+  {
+    "artist": "Relationsteorin - Nytt datum!",
+    "venue": "Stenhammarsalen",
+    "date": "2021-11-18 16:00",
+    "price": "395 :-",
+    "link": ""
+  },
+  {
+    "artist": "Ossler",
+    "venue": "Pustervik",
+    "date": "2021-11-19 19:00",
+    "price": "320 :-",
+    "link": ""
+  },
+  {
+    "artist": "Sissels Jul",
+    "venue": "Partille Arena",
+    "date": "2021-11-19 19:30",
+    "price": "495/595 :-",
+    "link": ""
+  },
+  {
+    "artist": "Molly Hammar",
+    "venue": "Nefertiti",
+    "date": "2021-11-19 19:00",
+    "price": "295 :-",
+    "link": ""
+  },
+  {
+    "artist": "Jojje Wadenius & Cleo",
+    "venue": "Valand",
+    "date": "2021-11-19 20:00",
+    "price": "295-335 :-",
+    "link": ""
+  },
+  {
+    "artist": "Vandenberg - Inställt!",
+    "venue": "Valand",
+    "date": "2021-11-19 20:00",
+    "price": "395 :-",
+    "link": ""
+  },
+  {
+    "artist": "Jelly Bellys",
+    "venue": "Porter Pelles",
+    "date": "2021-11-20 19:00",
+    "price": "170 :-",
+    "link": ""
+  },
+  {
+    "artist": "Deportees",
+    "venue": "Pustervik",
+    "date": "2021-11-20 19:00",
+    "price": "350 :-",
+    "link": ""
+  },
+  {
+    "artist": "Jojje Wadenius barnföreställning",
+    "venue": "Valand",
+    "date": "2021-11-20 13:00",
+    "price": "145 :-",
+    "link": ""
+  },
+  {
+    "artist": "Isak Danielson - Nytt datum!",
+    "venue": "Pustervik",
+    "date": "2021-11-21 19:00",
+    "price": "275 :-",
+    "link": ""
+  },
+  {
+    "artist": "Shaam Larein + Nigrum",
+    "venue": "The Abyss",
+    "date": "2021-11-21 18:00",
+    "price": "235 :-",
+    "link": ""
+  },
+  {
+    "artist": "Ana Diaz",
+    "venue": "Stenhammarsalen",
+    "date": "2021-11-21 20:00",
+    "price": "420 :-",
+    "link": ""
+  },
+  {
+    "artist": "Igorrr + Otto Von Schirach + Drumcorps",
+    "venue": "Valand",
+    "date": "2021-11-21 19:30",
+    "price": "385 :-",
+    "link": ""
+  },
+  {
+    "artist": "Tombola 300",
+    "venue": "Pustervik",
+    "date": "2021-11-22 19:00",
+    "price": "325 :-",
+    "link": ""
+  },
+  {
+    "artist": "Per Gessle Unplugged",
+    "venue": "Lorensbergsteatern",
+    "date": "2021-11-22 19:30",
+    "price": "710 :-",
+    "link": ""
+  },
+  {
+    "artist": "Änglaspel",
+    "venue": "Valand",
+    "date": "2021-11-22 20:00",
+    "price": "195-235 :-",
+    "link": ""
+  },
+  {
+    "artist": "Mikael Ramel",
+    "venue": "Valand",
+    "date": "2021-11-23 20:00",
+    "price": "315-355 :-",
+    "link": ""
+  },
+  {
+    "artist": "Timbuktu & Masaka Trio",
+    "venue": "Nefertiti",
+    "date": "2021-11-23 19:30",
+    "price": "350 :-",
+    "link": ""
+  },
+  {
+    "artist": "Beast in Black",
+    "venue": "Trädgår´n",
+    "date": "2021-11-23 19:30",
+    "price": "430 :-",
+    "link": ""
+  },
+  {
+    "artist": "David Ritschard",
+    "venue": "Pustervik",
+    "date": "2021-11-24 19:00",
+    "price": "275 :-",
+    "link": ""
+  },
+  {
+    "artist": "Boppers, Brolle & Rockabilly Faboulus",
+    "venue": "Lorensbergsteatern",
+    "date": "2021-11-24 19:30",
+    "price": "595/695 :-",
+    "link": ""
+  },
+  {
+    "artist": "Julkonserten Änglaljus",
+    "venue": "Tyska Kyrkan",
+    "date": "2021-11-24 19:00",
+    "price": "425 :-",
+    "link": "Boka!"
+  },
+  {
+    "artist": "Ivan Ave",
+    "venue": "Nefertiti",
+    "date": "2021-11-25 18:00",
+    "price": "140 :-",
+    "link": ""
+  },
+  {
+    "artist": "Klabbes Bank",
+    "venue": "Valand",
+    "date": "2021-11-25 20:00",
+    "price": "295-335 :-",
+    "link": ""
+  },
+  {
+    "artist": "S.A.R.S. - Nytt datum!",
+    "venue": "Musikens Hus",
+    "date": "2021-11-25 20:00",
+    "price": "350 :-",
+    "link": ""
+  },
+  {
+    "artist": "Lastkaj 14 + Radar",
+    "venue": "Pustervik",
+    "date": "2021-11-25 19:00",
+    "price": "250 :-",
+    "link": ""
+  },
+  {
+    "artist": "Idyll och glöd med Hazelius Hedin",
+    "venue": "Stenhammarsalen",
+    "date": "2021-11-26 19:30",
+    "price": "115-295 :-",
+    "link": ""
+  },
+  {
+    "artist": "The Bejeezus Boys",
+    "venue": "Porter Pelles",
+    "date": "2021-11-26 19:00",
+    "price": "225 :-",
+    "link": ""
+  },
+  {
+    "artist": "Bröderna Johansson",
+    "venue": "Nefertiti",
+    "date": "2021-11-26 20:30",
+    "price": "320 :-",
+    "link": ""
+  },
+  {
+    "artist": "Sweet Peach Band",
+    "venue": "Musikens Hus",
+    "date": "2021-11-26 21:00",
+    "price": "100 :-",
+    "link": ""
+  },
+  {
+    "artist": "Trubbel + Hjelle & Ormarna",
+    "venue": "Pustervik",
+    "date": "2021-11-26 20:00",
+    "price": "200 :-",
+    "link": ""
+  },
+  {
+    "artist": "New Tide Orquesta: 25 år!",
+    "venue": "Folkteatern",
+    "date": "2021-11-27 22:30",
+    "price": "280/200 :-",
+    "link": ""
+  },
+  {
+    "artist": "The 1974 Tribute to ABBA - Inställt!",
+    "venue": "Konserthuset",
+    "date": "2021-11-27 19:30",
+    "price": "395/495 :-",
+    "link": ""
+  },
+  {
+    "artist": "The Wounded Healer - Punk Fest",
+    "venue": "Musikens Hus",
+    "date": "2021-11-27 17:00",
+    "price": "330 :-",
+    "link": ""
+  },
+  {
+    "artist": "Folktown",
+    "venue": "Porter Pelles",
+    "date": "2021-11-27 19:00",
+    "price": "225 :-",
+    "link": ""
+  },
+  {
+    "artist": "Humorkalaset Christmas",
+    "venue": "Lorensbergsteatern",
+    "date": "2021-11-27 20:00",
+    "price": "395-695 :-",
+    "link": ""
+  },
+  {
+    "artist": "Daniela Rathana",
+    "venue": "Pustervik",
+    "date": "2021-11-27 20:00",
+    "price": "205 :-",
+    "link": ""
+  },
+  {
+    "artist": "Mork + Afsky",
+    "venue": "The Abyss",
+    "date": "2021-11-28 19:00",
+    "price": "275 :-",
+    "link": ""
+  },
+  {
+    "artist": "Damen + You Said Forever + Paradise Dot",
+    "venue": "2:a Långg. Skivhandel",
+    "date": "2021-11-28 16:30",
+    "price": "110 :-",
+    "link": ""
+  },
+  {
+    "artist": "Priest + Tukt",
+    "venue": "Musikens Hus",
+    "date": "2021-11-28 19:00",
+    "price": "195 :-",
+    "link": ""
+  },
+  {
+    "artist": "Ale Möller möter GWO",
+    "venue": "Betlehemskyrkan",
+    "date": "2021-11-29 19:00",
+    "price": "50-225 :-",
+    "link": ""
+  },
+  {
+    "artist": "Norrbotten Big Band feat. Johan Lindström",
+    "venue": "Pustervik",
+    "date": "2021-11-29 19:00",
+    "price": "320 :-",
+    "link": ""
+  },
+  {
+    "artist": "I Vintertid",
+    "venue": "Kville Kyrka",
+    "date": "2021-11-30 19:30",
+    "price": "390 :-",
+    "link": "Boka!"
+  },
+  {
+    "artist": "Relationsshowen",
+    "venue": "Stenhammarsalen",
+    "date": "2021-11-30 19:00",
+    "price": "425 :-",
+    "link": ""
+  },
+  {
+    "artist": "Göteborgs Gosskör: Adventskonsert",
+    "venue": "Tyska Kyrkan",
+    "date": "2021-12-01 18:00",
+    "price": "260/109 :-",
+    "link": "Boka!"
+  },
+  {
+    "artist": "Allt - En standup-föreställning",
+    "venue": "Contrast Public House",
+    "date": "2021-12-01 20:00",
+    "price": "250 :-",
+    "link": ""
+  },
+  {
+    "artist": "Forum för Posei och Prosa",
+    "venue": "Musikens Hus",
+    "date": "2021-12-01 19:00",
+    "price": "90/60 :-",
+    "link": "Boka!"
+  },
+  {
+    "artist": "Billie the Vision and the Dancers - Inställt!",
+    "venue": "Pustervik",
+    "date": "2021-12-01 19:00",
+    "price": "275 :-",
+    "link": ""
+  },
+  {
+    "artist": "I Vintertid",
+    "venue": "Annedalskyrkan",
+    "date": "2021-12-01 19:30",
+    "price": "390 :-",
+    "link": "Boka!"
+  },
+  {
+    "artist": "Paulo Mendonca",
+    "venue": "Valand",
+    "date": "2021-12-02 20:00",
+    "price": "335 :-",
+    "link": ""
+  },
+  {
+    "artist": "Jenny Wilson",
+    "venue": "Pustervik",
+    "date": "2021-12-02 19:00",
+    "price": "320 :-",
+    "link": ""
+  },
+  {
+    "artist": "Viva Sounds 2021",
+    "venue": "Pustervik",
+    "date": "2021-12-03 19:00",
+    "price": "125-375 :-",
+    "link": ""
+  },
+  {
+    "artist": "Groove Train",
+    "venue": "Valand",
+    "date": "2021-12-03 20:00",
+    "price": "245 :-",
+    "link": ""
+  },
+  {
+    "artist": "Anders Ekborg: En Stilla Jul",
+    "venue": "Oscar Fredriks K:A",
+    "date": "2021-12-03 19:30",
+    "price": "535 :-",
+    "link": ""
+  },
+  {
+    "artist": "Black Mass GBG: Weekend",
+    "venue": "Frihamnen",
+    "date": "2021-12-03 18:00",
+    "price": "395/695 :-",
+    "link": ""
+  },
+  {
+    "artist": "Bob Hund: Helgen v. 48",
+    "venue": "Pustervik",
+    "date": "2021-12-03 19:00",
+    "price": "375 :-",
+    "link": ""
+  },
+  {
+    "artist": "Paul Kalkbrenner",
+    "venue": "Frihamnen",
+    "date": "2021-12-03 22:00",
+    "price": "440/740 :-",
+    "link": ""
+  },
+  {
+    "artist": "Hellmans Drängar: En helt normal jul - Nya datum!",
+    "venue": "Lorensbergsteatern",
+    "date": "2021-12-04 19:00",
+    "price": "395 :-",
+    "link": ""
+  },
+  {
+    "artist": "Harrisongs (George Harrison Tribute)",
+    "venue": "Porter Pelles",
+    "date": "2021-12-04 19:00",
+    "price": "255 :-",
+    "link": ""
+  },
+  {
+    "artist": "Svenska Akademien",
+    "venue": "Musikens Hus",
+    "date": "2021-12-04 20:00",
+    "price": "310 :-",
+    "link": ""
+  },
+  {
+    "artist": "Vasas Flora & Fauna - Nytt datum!",
+    "venue": "Pustervik",
+    "date": "2021-12-05 19:00",
+    "price": "250 :-",
+    "link": ""
+  },
+  {
+    "artist": "Black Midi",
+    "venue": "Musikens Hus",
+    "date": "2021-12-05 19:00",
+    "price": "330 :-",
+    "link": ""
+  },
+  {
+    "artist": "Amason + Daniel4ever",
+    "venue": "Pustervik",
+    "date": "2021-12-06 19:00",
+    "price": "475 :-",
+    "link": ""
+  },
+  {
+    "artist": "Anna-Lottas Jul",
+    "venue": "Oscar Fredriks K:A",
+    "date": "2021-12-07 19:00",
+    "price": "360 :-",
+    "link": "Boka!"
+  },
+  {
+    "artist": "At The Gates",
+    "venue": "Trädgår´n",
+    "date": "2021-12-07 19:00",
+    "price": "375 :-",
+    "link": ""
+  },
+  {
+    "artist": "Steve'n'Seagulls - Nytt datum!",
+    "venue": "Pustervik",
+    "date": "2021-12-07 19:00",
+    "price": "270 :-",
+    "link": ""
+  },
+  {
+    "artist": "Jethro Tulls Martin Barre",
+    "venue": "Musikens Hus",
+    "date": "2021-12-07 19:00",
+    "price": "415 :-",
+    "link": ""
+  },
+  {
+    "artist": "GBH / Fredag Den 13:e / Unjustified Violence",
+    "venue": "Musikens Hus",
+    "date": "2021-12-09 19:00",
+    "price": "275 :-",
+    "link": ""
+  },
+  {
+    "artist": "Räkhäst: I huvudet på Per Andersson",
+    "venue": "Lorensbergsteatern",
+    "date": "2021-12-09 19:30",
+    "price": "495-795 :-",
+    "link": ""
+  },
+  {
+    "artist": "Monolord + Blackwater Holylight",
+    "venue": "Pustervik",
+    "date": "2021-12-09 19:00",
+    "price": "350 :-",
+    "link": ""
+  },
+  {
+    "artist": "Kristina Issa",
+    "venue": "Folkteatern",
+    "date": "2021-12-09 19:30",
+    "price": "150 :-",
+    "link": ""
+  },
+  {
+    "artist": "Stiko Per Larsson",
+    "venue": "Musikens Hus",
+    "date": "2021-12-10 20:00",
+    "price": "160 :-",
+    "link": ""
+  },
+  {
+    "artist": "Thomas Di Leva: Hjärtat vinner alltid",
+    "venue": "Annedalskyrkan",
+    "date": "2021-12-10 19:00",
+    "price": "395 :-",
+    "link": ""
+  },
+  {
+    "artist": "Smash Into Pieces",
+    "venue": "Valand",
+    "date": "2021-12-10 20:00",
+    "price": "330 :-",
+    "link": ""
+  },
+  {
+    "artist": "Elvis Christmas & Gospel Songs - Nytt datum!",
+    "venue": "Konserthuset",
+    "date": "2021-12-10 19:00",
+    "price": "695 :-",
+    "link": ""
+  },
+  {
+    "artist": "Fröken Elvis Jul - igen!",
+    "venue": "Stenhammarsalen",
+    "date": "2021-12-10 19:00",
+    "price": "495 :-",
+    "link": ""
+  },
+  {
+    "artist": "The Sounds - Nytt datum!",
+    "venue": "Pustervik",
+    "date": "2021-12-10 19:00",
+    "price": "390 :-",
+    "link": ""
+  },
+  {
+    "artist": "Torsson",
+    "venue": "Musikens Hus",
+    "date": "2021-12-11 20:00",
+    "price": "305 :-",
+    "link": ""
+  },
+  {
+    "artist": "Pascal",
+    "venue": "Pustervik",
+    "date": "2021-12-11 19:00",
+    "price": "300 :-",
+    "link": ""
+  },
+  {
+    "artist": "Träden (Träd Gräs & Stenar)",
+    "venue": "Folkteatern",
+    "date": "2021-12-11 22:30",
+    "price": "280/200 :-",
+    "link": ""
+  },
+  {
+    "artist": "Ulf Wakenius Group",
+    "venue": "Valand",
+    "date": "2021-12-11 20:00",
+    "price": "295-335 :-",
+    "link": ""
+  },
+  {
+    "artist": "Insomnium / Omnium Gatherum - Nytt datum!",
+    "venue": "Pustervik",
+    "date": "2021-12-12 19:00",
+    "price": "385 :-",
+    "link": ""
+  },
+  {
+    "artist": "Nynningen: 50 år!",
+    "venue": "Pustervik",
+    "date": "2021-12-13 19:00",
+    "price": "320 :-",
+    "link": ""
+  },
+  {
+    "artist": "Sanna Nielsen: Min Sanna Jul",
+    "venue": "Konserthuset",
+    "date": "2021-12-13 18:00",
+    "price": "695/795 :-",
+    "link": ""
+  },
+  {
+    "artist": "GWO: Strålande Jul",
+    "venue": "Domkyrkan",
+    "date": "2021-12-14 17:00",
+    "price": "60-295 :-",
+    "link": ""
+  },
+  {
+    "artist": "Svanström 3",
+    "venue": "Valand",
+    "date": "2021-12-15 20:00",
+    "price": "185-225 :-",
+    "link": ""
+  },
+  {
+    "artist": "Lustans Lakejer + Reeperbahn",
+    "venue": "Pustervik",
+    "date": "2021-12-15 19:00",
+    "price": "575 :-",
+    "link": ""
+  },
+  {
+    "artist": "Göteborgs Gosskör: Julkonsert",
+    "venue": "Tyska Kyrkan",
+    "date": "2021-12-16 18:00",
+    "price": "260/109 :-",
+    "link": "Boka!"
+  },
+  {
+    "artist": "Sky High",
+    "venue": "Valand",
+    "date": "2021-12-16 20:00",
+    "price": "295-335 :-",
+    "link": ""
+  },
+  {
+    "artist": "Wolves in Haze",
+    "venue": "The Abyss",
+    "date": "2021-12-16 19:00",
+    "price": "240 :-",
+    "link": ""
+  },
+  {
+    "artist": "Jonas Lundqvist",
+    "venue": "Nefertiti",
+    "date": "2021-12-17 19:00",
+    "price": "295 :-",
+    "link": ""
+  },
+  {
+    "artist": "Nicole Sabouné",
+    "venue": "Pustervik",
+    "date": "2021-12-17 19:00",
+    "price": "275 :-",
+    "link": ""
+  },
+  {
+    "artist": "Nötknäpparen",
+    "venue": "Lorensbergsteatern",
+    "date": "2021-12-17 18:00",
+    "price": "95-450 :-",
+    "link": ""
+  },
+  {
+    "artist": "Jul med Franska Trion - Nytt datum!",
+    "venue": "Pustervik",
+    "date": "2021-12-18 18:30",
+    "price": "520 :-",
+    "link": ""
+  },
+  {
+    "artist": "Roffe Wikström",
+    "venue": "Musikens Hus",
+    "date": "2021-12-18 20:00",
+    "price": "400/350 :-",
+    "link": "Boka!"
+  },
+  {
+    "artist": "Posörerna",
+    "venue": "Porter Pelles",
+    "date": "2021-12-18 19:00",
+    "price": "225 :-",
+    "link": ""
+  },
+  {
+    "artist": "Normandie",
+    "venue": "Valand",
+    "date": "2021-12-18 19:00",
+    "price": "195 :-",
+    "link": ""
+  },
+  {
+    "artist": "West of Eden: Celtic Christmas",
+    "venue": "Masthuggskyrkan",
+    "date": "2021-12-18 19:00",
+    "price": "355/210 :-",
+    "link": "Boka!"
+  },
+  {
+    "artist": "Christmas Night - Nytt datum!",
+    "venue": "Konserthuset",
+    "date": "2021-12-19 18:00",
+    "price": "695 :-",
+    "link": ""
+  },
+  {
+    "artist": "Iris Viljanen: En finsk jul",
+    "venue": "Nefertiti",
+    "date": "2021-12-19 19:00",
+    "price": "275 :-",
+    "link": ""
+  },
+  {
+    "artist": "I Juletid 2021",
+    "venue": "Annedalskyrkan",
+    "date": "2021-12-20 19:30",
+    "price": "390 :-",
+    "link": "Boka!"
+  },
+  {
+    "artist": "The Wall: Live in Concert",
+    "venue": "Partille Arena",
+    "date": "2021-12-25 20:00",
+    "price": "395-895 :-",
+    "link": ""
+  },
+  {
+    "artist": "The Magical Music of Harry Potter",
+    "venue": "Partille Arena",
+    "date": "2021-12-25 16:00",
+    "price": "395-795 :-",
+    "link": ""
+  },
+  {
+    "artist": "ODZ",
+    "venue": "Partille Arena",
+    "date": "2021-12-29 20:00",
+    "price": "320 :-",
+    "link": ""
+  },
+  {
+    "artist": "Dream Drop + Those Without + Set to Wake + Envyyou",
+    "venue": "Valand",
+    "date": "2021-12-30 19:00",
+    "price": "115 :-",
+    "link": ""
+  },
+  {
+    "artist": "Thomas Stenström - Nytt datum!",
+    "venue": "Pustervik",
+    "date": "2022-01-03 19:00",
+    "price": "420 :-",
+    "link": ""
+  },
+  {
+    "artist": "Trazan & Banarne: Banankontakt",
+    "venue": "Lorensbergsteatern",
+    "date": "2022-01-07 17:30",
+    "price": "430-575 :-",
+    "link": ""
+  },
+  {
+    "artist": "Trummor & Orgel - Nytt datum!",
+    "venue": "Pustervik",
+    "date": "2022-01-07 19:00",
+    "price": "275 :-",
+    "link": ""
+  },
+  {
+    "artist": "Frog Leap - Nytt datum!",
+    "venue": "Trädgår´n",
+    "date": "2022-01-07 20:00",
+    "price": "385 :-",
+    "link": ""
+  },
+  {
+    "artist": "Best of Bowie",
+    "venue": "Valand",
+    "date": "2022-01-07 20:00",
+    "price": "305 :-",
+    "link": ""
+  },
+  {
+    "artist": "Sabaton",
+    "venue": "Råda Rum Mölnlycke",
+    "date": "2022-01-11 20:00",
+    "price": "595 :-",
+    "link": ""
+  },
+  {
+    "artist": "Valdemar",
+    "venue": "Porter Pelles",
+    "date": "2022-01-14 19:00",
+    "price": "255 :-",
+    "link": ""
+  },
+  {
+    "artist": "Mando Diao - Nytt datum!",
+    "venue": "Konserthuset",
+    "date": "2022-01-14 19:00",
+    "price": "500 :-",
+    "link": ""
+  },
+  {
+    "artist": "Pernilla Wahlgren har hybris - Nya datum!",
+    "venue": "Lorensbergsteatern",
+    "date": "2022-01-14 19:00",
+    "price": "600 :-",
+    "link": ""
+  },
+  {
+    "artist": "Jan Johansen",
+    "venue": "Porter Pelles",
+    "date": "2022-01-15 19:00",
+    "price": "275 :-",
+    "link": ""
+  },
+  {
+    "artist": "Loney Dear + Merit Hemmingson",
+    "venue": "Pustervik",
+    "date": "2022-01-15 19:00",
+    "price": "375 :-",
+    "link": ""
+  },
+  {
+    "artist": "Jesper Rönndahl Live! - Nytt datum!",
+    "venue": "Konserthuset",
+    "date": "2022-01-15 19:30",
+    "price": "300/345 :-",
+    "link": ""
+  },
+  {
+    "artist": "Sune: Ensam Hemma",
+    "venue": "Lorensbergsteatern",
+    "date": "2022-01-15 17:30",
+    "price": "430/535 :-",
+    "link": ""
+  },
+  {
+    "artist": "Nyårskonserten 2022",
+    "venue": "Konserthuset",
+    "date": "2022-01-16 18:00",
+    "price": "695 :-",
+    "link": ""
+  },
+  {
+    "artist": "Mustasch",
+    "venue": "Pustervik",
+    "date": "2022-01-20 19:00",
+    "price": "395 :-",
+    "link": ""
+  },
+  {
+    "artist": "D-Block & S-Te-Fan",
+    "venue": "Trädgår´n",
+    "date": "2022-01-21 22:00",
+    "price": "570 :-",
+    "link": ""
+  },
+  {
+    "artist": "Brynolf & Ljung: Stalker",
+    "venue": "Lorensbergsteatern",
+    "date": "2022-01-21 18:00",
+    "price": "460/590 :-",
+    "link": ""
+  },
+  {
+    "artist": "Örnarna (Eagles Tribute)",
+    "venue": "Porter Pelles",
+    "date": "2022-01-21 19:00",
+    "price": "275 :-",
+    "link": ""
+  },
+  {
+    "artist": "Sarah Klang",
+    "venue": "Pustervik",
+    "date": "2022-01-21 19:00",
+    "price": "320 :-",
+    "link": ""
+  },
+  {
+    "artist": "Arcturus + Iotunn",
+    "venue": "Valand",
+    "date": "2022-01-21 19:00",
+    "price": "350 :-",
+    "link": ""
+  },
+  {
+    "artist": "Infected Mushroom",
+    "venue": "Trädgår´n",
+    "date": "2022-01-22 22:00",
+    "price": "495-695 :-",
+    "link": ""
+  },
+  {
+    "artist": "Diablo Swing Orchestra",
+    "venue": "Valand",
+    "date": "2022-01-22 20:00",
+    "price": "335 :-",
+    "link": ""
+  },
+  {
+    "artist": "Jethro Tull - Nytt datum!",
+    "venue": "Konserthuset",
+    "date": "2022-01-23 19:00",
+    "price": "620-820 :-",
+    "link": ""
+  },
+  {
+    "artist": "Sasha Velour ",
+    "venue": "Lorensbergsteatern",
+    "date": "2022-01-26 19:00",
+    "price": "485-1235 :-",
+    "link": ""
+  },
+  {
+    "artist": "Stig Helmers",
+    "venue": "Porter Pelles",
+    "date": "2022-01-28 19:00",
+    "price": "255 :-",
+    "link": ""
+  },
+  {
+    "artist": "Miss Li - Nytt datum!",
+    "venue": "Konserthuset",
+    "date": "2022-01-28 19:30",
+    "price": "445 :-",
+    "link": ""
+  },
+  {
+    "artist": "Benediction + Baest + Puteraeon",
+    "venue": "Valand",
+    "date": "2022-01-28 19:00",
+    "price": "325 :-",
+    "link": ""
+  },
+  {
+    "artist": "BeatBoxGBG 2022: Official Preparty",
+    "venue": "Café Hängmattan",
+    "date": "2022-01-28 19:00",
+    "price": "195 :-",
+    "link": ""
+  },
+  {
+    "artist": "Soen - Nytt datum!",
+    "venue": "Pustervik",
+    "date": "2022-01-28 19:00",
+    "price": "320 :-",
+    "link": ""
+  },
+  {
+    "artist": "FINK",
+    "venue": "Trädgår´n",
+    "date": "2022-01-29 18:00",
+    "price": "305 :-",
+    "link": ""
+  },
+  {
+    "artist": "Groznyj",
+    "venue": "Porter Pelles",
+    "date": "2022-01-29 19:00",
+    "price": "255 :-",
+    "link": ""
+  },
+  {
+    "artist": "BeatBoxGBG 2022: ItaloDisco Festival",
+    "venue": "Musikens Hus",
+    "date": "2022-01-29 18:00",
+    "price": "495 :-",
+    "link": ""
+  },
+  {
+    "artist": "Perkele + Upploppet",
+    "venue": "Pustervik",
+    "date": "2022-01-29 19:00",
+    "price": "250 :-",
+    "link": ""
+  },
+  {
+    "artist": "Yann Tiersen",
+    "venue": "Trädgår´n",
+    "date": "2022-01-30 19:00",
+    "price": "430 :-",
+    "link": ""
+  },
+  {
+    "artist": "Stockholm Swing All Stars",
+    "venue": "Stenhammarsalen",
+    "date": "2022-01-30 15:00",
+    "price": "350 :-",
+    "link": ""
+  },
+  {
+    "artist": "Molvær kosmiska jazzlandskap",
+    "venue": "Stenhammarsalen",
+    "date": "2022-01-31 19:30",
+    "price": "162-405 :-",
+    "link": ""
+  },
+  {
+    "artist": "Mattias Alkberg: Häxor -Nytt Datum!",
+    "venue": "Pustervik",
+    "date": "2022-02-02 19:00",
+    "price": "320 :-",
+    "link": ""
+  },
+  {
+    "artist": "Henrik Fexeus är att lita på - Nya datum!",
+    "venue": "Lorensbergsteatern",
+    "date": "2022-02-03 19:30",
+    "price": "495/250 :-",
+    "link": "Boka!"
+  },
+  {
+    "artist": "Turmion Kätilöt",
+    "venue": "Valand",
+    "date": "2022-02-05 19:00",
+    "price": "385 :-",
+    "link": ""
+  },
+  {
+    "artist": "Pugh Rogefeldt - Inställt!",
+    "venue": "Konserthuset",
+    "date": "2022-02-06 19:30",
+    "price": "520/620 :-",
+    "link": ""
+  },
+  {
+    "artist": "Swallow the Sun + Avatarium",
+    "venue": "Valand",
+    "date": "2022-02-07 20:00",
+    "price": "385 :-",
+    "link": ""
+  },
+  {
+    "artist": "Michael: The Magic of Michael Jackson",
+    "venue": "Lorensbergsteatern",
+    "date": "2022-02-08 19:00",
+    "price": "630-730 :-",
+    "link": ""
+  },
+  {
+    "artist": "Lettuce",
+    "venue": "Nefertiti",
+    "date": "2022-02-09 19:30",
+    "price": "250 :-",
+    "link": ""
+  },
+  {
+    "artist": "The Who Sweden",
+    "venue": "Lorensbergsteatern",
+    "date": "2022-02-09 19:30",
+    "price": "595/695 :-",
+    "link": ""
+  },
+  {
+    "artist": "The Handsome Family - Nytt datum!",
+    "venue": "Musikens Hus",
+    "date": "2022-02-10 19:00",
+    "price": "265 :-",
+    "link": ""
+  },
+  {
+    "artist": "Amaranthe + Beyond the Black - Nytt datum!",
+    "venue": "Pustervik",
+    "date": "2022-02-10 18:30",
+    "price": "375 :-",
+    "link": ""
+  },
+  {
+    "artist": "Smokie",
+    "venue": "Råda Rum Mölnlycke",
+    "date": "2022-02-11 19:30",
+    "price": "605 :-",
+    "link": ""
+  },
+  {
+    "artist": "Accept + Floatsam & Jetsam",
+    "venue": "Trädgår´n",
+    "date": "2022-02-11 19:00",
+    "price": "445 :-",
+    "link": ""
+  },
+  {
+    "artist": "Pearl Charles",
+    "venue": "Pustervik",
+    "date": "2022-02-12 19:00",
+    "price": "225 :-",
+    "link": ""
+  },
+  {
+    "artist": "Özz & Måns: Världens Historia - Nytt datum!",
+    "venue": "Lorensbergsteatern",
+    "date": "2022-02-12 19:30",
+    "price": "460 :-",
+    "link": ""
+  },
+  {
+    "artist": "Augustine",
+    "venue": "Pustervik",
+    "date": "2022-02-12 19:00",
+    "price": "275 :-",
+    "link": ""
+  },
+  {
+    "artist": "The Juliet Letters",
+    "venue": "Stenhammarsalen",
+    "date": "2022-02-13 18:00",
+    "price": "112-295 :-",
+    "link": ""
+  },
+  {
+    "artist": "The Black Dahlia Murder",
+    "venue": "Valand",
+    "date": "2022-02-14 19:30",
+    "price": "385 :-",
+    "link": ""
+  },
+  {
+    "artist": "Laibach - Nytt datum & ny plats!",
+    "venue": "Pustervik",
+    "date": "2022-02-15 20:00",
+    "price": "410 :-",
+    "link": ""
+  },
+  {
+    "artist": "Royal Republic: Nytt datum!",
+    "venue": "Pustervik",
+    "date": "2022-02-16 20:00",
+    "price": "345 :-",
+    "link": ""
+  },
+  {
+    "artist": "Jesper Binzer + Hot Breath",
+    "venue": "Valand",
+    "date": "2022-02-18 19:00",
+    "price": "TBA :-",
+    "link": ""
+  },
+  {
+    "artist": "Deathstars - Nytt datum!",
+    "venue": "Pustervik",
+    "date": "2022-02-18 19:00",
+    "price": "350 :-",
+    "link": ""
+  },
+  {
+    "artist": "Johan Airijoki - Nytt datum!",
+    "venue": "Pustervik",
+    "date": "2022-02-19 19:00",
+    "price": "205 :-",
+    "link": ""
+  },
+  {
+    "artist": "Strand of Oaks",
+    "venue": "Pustervik",
+    "date": "2022-02-19 18:00",
+    "price": "225 :-",
+    "link": ""
+  },
+  {
+    "artist": "Electric Boys + Black Paisley - Nytt datum!",
+    "venue": "Valand",
+    "date": "2022-02-19 20:00",
+    "price": "335 :-",
+    "link": ""
+  },
+  {
+    "artist": "Nervosa + Warbringer",
+    "venue": "Valand",
+    "date": "2022-02-20 19:30",
+    "price": "385 :-",
+    "link": ""
+  },
+  {
+    "artist": "Les Miserable in Concert",
+    "venue": "Konserthuset",
+    "date": "2022-02-20 18:00",
+    "price": "695 :-",
+    "link": ""
+  },
+  {
+    "artist": "Alcest + Hangman’s Chair",
+    "venue": "Pustervik",
+    "date": "2022-02-20 19:00",
+    "price": "350 :-",
+    "link": ""
+  },
+  {
+    "artist": "Wolf Alice",
+    "venue": "Pustervik",
+    "date": "2022-02-21 19:00",
+    "price": "265 :-",
+    "link": ""
+  },
+  {
+    "artist": "Hurula",
+    "venue": "Pustervik",
+    "date": "2022-02-22 19:00",
+    "price": "320 :-",
+    "link": ""
+  },
+  {
+    "artist": "Dan Reed Network",
+    "venue": "Valand",
+    "date": "2022-02-23 20:00",
+    "price": "395 :-",
+    "link": ""
+  },
+  {
+    "artist": "Pernilla Wahlgren har hybris - Nya datum!",
+    "venue": "Lorensbergsteatern",
+    "date": "2022-02-24 19:00",
+    "price": "600 :-",
+    "link": ""
+  },
+  {
+    "artist": "Josefin Johansson: Den stora kärleken",
+    "venue": "Lisebergsteatern",
+    "date": "2022-02-24 20:00",
+    "price": "390 :-",
+    "link": ""
+  },
+  {
+    "artist": "Carnifex + Chelsea Grin",
+    "venue": "Brewhouse",
+    "date": "2022-02-24 19:00",
+    "price": "350 :-",
+    "link": ""
+  },
+  {
+    "artist": "Lloyd Cole - Nytt datum!",
+    "venue": "Stenhammarsalen",
+    "date": "2022-02-25 19:30",
+    "price": "375 :-",
+    "link": ""
+  },
+  {
+    "artist": "Lucifer + Year of the Goat - Nytt datum!",
+    "venue": "Pustervik",
+    "date": "2022-02-25 19:00",
+    "price": "360 :-",
+    "link": ""
+  },
+  {
+    "artist": "Vini Vici - Nytt datum!",
+    "venue": "Trädgår´n",
+    "date": "2022-02-25 23:00",
+    "price": "375/575 :-",
+    "link": ""
+  },
+  {
+    "artist": "Josh Rouse + Vetiver",
+    "venue": "Pustervik",
+    "date": "2022-02-26 18:00",
+    "price": "295 :-",
+    "link": ""
+  },
+  {
+    "artist": "Frida Hyvönen",
+    "venue": "Konserthuset",
+    "date": "2022-02-27 19:30",
+    "price": "395 :-",
+    "link": ""
+  },
+  {
+    "artist": "Big Country - Nytt datum!",
+    "venue": "Pustervik",
+    "date": "2022-02-27 19:00",
+    "price": "375 :-",
+    "link": ""
+  },
+  {
+    "artist": "JP Harris Dreadful Wind & Rain + John R Miller",
+    "venue": "Oceanen",
+    "date": "2022-02-27 19:00",
+    "price": "250 :-",
+    "link": ""
+  },
+  {
+    "artist": "Nashville Live - Nytt datum!",
+    "venue": "Lorensbergsteatern",
+    "date": "2022-02-27 18:00",
+    "price": "595 :-",
+    "link": ""
+  },
+  {
+    "artist": "Hank Von Hell + The Carburetors - Nytt datum!",
+    "venue": "Pustervik",
+    "date": "2022-03-02 19:00",
+    "price": "395 :-",
+    "link": ""
+  },
+  {
+    "artist": "Nazareth",
+    "venue": "Trädgår´n",
+    "date": "2022-03-02 20:00",
+    "price": "450 :-",
+    "link": ""
+  },
+  {
+    "artist": "Pernilla Wahlgren har hybris - Nya datum!",
+    "venue": "Lorensbergsteatern",
+    "date": "2022-03-03 19:00",
+    "price": "600 :-",
+    "link": ""
+  },
+  {
+    "artist": "Mikael Wiehe: Den sista turnén",
+    "venue": "Konserthuset",
+    "date": "2022-03-04 19:30",
+    "price": "520 :-",
+    "link": ""
+  },
+  {
+    "artist": "Tango: Orquesta Tangarte",
+    "venue": "Stenhammarsalen",
+    "date": "2022-03-04 19:30",
+    "price": "115-295 :-",
+    "link": ""
+  },
+  {
+    "artist": "Unleached + Nifelheim + Vampire",
+    "venue": "Frihamnen",
+    "date": "2022-03-05 19:00",
+    "price": "355 :-",
+    "link": ""
+  },
+  {
+    "artist": "Vision: A Tribute to ABBA",
+    "venue": "Stenhammarsalen",
+    "date": "2022-03-05 19:30",
+    "price": "350 :-",
+    "link": ""
+  },
+  {
+    "artist": "Lord of the Rings & Hobbit Concert - Nytt datum!",
+    "venue": "Konserthuset",
+    "date": "2022-03-06 20:30",
+    "price": "390-790 :-",
+    "link": ""
+  },
+  {
+    "artist": "Geoff Tate (Queensryche)",
+    "venue": "Valand",
+    "date": "2022-03-06 20:00",
+    "price": "405 :-",
+    "link": ""
+  },
+  {
+    "artist": "Kvelertak + Blood Command - Nytt datum!",
+    "venue": "Pustervik",
+    "date": "2022-03-07 19:00",
+    "price": "295 :-",
+    "link": ""
+  },
+  {
+    "artist": "Battle Beast",
+    "venue": "Trädgår´n",
+    "date": "2022-03-11 18:30",
+    "price": "395 :-",
+    "link": ""
+  },
+  {
+    "artist": "Cockney Rejects + Östra Aros + Lawmaker",
+    "venue": "Frihamnen",
+    "date": "2022-03-11 19:00",
+    "price": "325 :-",
+    "link": ""
+  },
+  {
+    "artist": "Rein - Nytt datum!",
+    "venue": "Pustervik",
+    "date": "2022-03-11 20:00",
+    "price": "250 :-",
+    "link": ""
+  },
+  {
+    "artist": "Children of Zeus",
+    "venue": "Nefertiti",
+    "date": "2022-03-11 20:00",
+    "price": "245 :-",
+    "link": ""
+  },
+  {
+    "artist": "Passenger - Nytt datum!",
+    "venue": "Trädgår´n",
+    "date": "2022-03-12 18:00",
+    "price": "440 :-",
+    "link": ""
+  },
+  {
+    "artist": "Basia Bulat - Nytt datum!",
+    "venue": "Pustervik",
+    "date": "2022-03-12 19:00",
+    "price": "265 :-",
+    "link": ""
+  },
+  {
+    "artist": "Samantha Fish",
+    "venue": "Valand",
+    "date": "2022-03-12 20:00",
+    "price": "270 :-",
+    "link": ""
+  },
+  {
+    "artist": "Passion med Trio Poseidon",
+    "venue": "Stenhammarsalen",
+    "date": "2022-03-13 18:00",
+    "price": "112-295 :-",
+    "link": ""
+  },
+  {
+    "artist": "Brel möter Piaf - Nytt datum!",
+    "venue": "Lorensbergsteatern",
+    "date": "2022-03-13 18:00",
+    "price": "495-545 :-",
+    "link": ""
+  },
+  {
+    "artist": "The Dead Daisies",
+    "venue": "Pustervik",
+    "date": "2022-03-14 19:00",
+    "price": "385 :-",
+    "link": ""
+  },
+  {
+    "artist": "The Picturebooks + Warish",
+    "venue": "Pustervik",
+    "date": "2022-03-15 19:00",
+    "price": "385 :-",
+    "link": ""
+  },
+  {
+    "artist": "Midlake",
+    "venue": "Pustervik",
+    "date": "2022-03-16 19:00",
+    "price": "350 :-",
+    "link": ""
+  },
+  {
+    "artist": "The Lord of the Rings & The Hobbit: The Concert",
+    "venue": "Partille Arena",
+    "date": "2022-03-17 18:00",
+    "price": "395-795 :-",
+    "link": ""
+  },
+  {
+    "artist": "GZA - The Genius - Nytt datum!",
+    "venue": "Pustervik",
+    "date": "2022-03-17 19:00",
+    "price": "320 :-",
+    "link": ""
+  },
+  {
+    "artist": "Värmländsk Voodoo - Nytt datum",
+    "venue": "Lorensbergsteatern",
+    "date": "2022-03-17 19:00",
+    "price": "460 :-",
+    "link": ""
+  },
+  {
+    "artist": "Shout Out Louds",
+    "venue": "Pustervik",
+    "date": "2022-03-19 19:00",
+    "price": "325 :-",
+    "link": ""
+  },
+  {
+    "artist": "Musikens Hus Goes Progressive",
+    "venue": "Musikens Hus",
+    "date": "2022-03-19 18:00",
+    "price": "400 :-",
+    "link": ""
+  },
+  {
+    "artist": "Lena Philipsson",
+    "venue": "Konserthuset",
+    "date": "2022-03-20 19:30",
+    "price": "595/695 :-",
+    "link": ""
+  },
+  {
+    "artist": "Pineapple Thief - Nytt datum!",
+    "venue": "Pustervik",
+    "date": "2022-03-21 19:00",
+    "price": "270 :-",
+    "link": ""
+  },
+  {
+    "artist": "Hell Over Europe 4: Aborted + The Acacia Strain",
+    "venue": "Valand",
+    "date": "2022-03-21 19:00",
+    "price": "360 :-",
+    "link": ""
+  },
+  {
+    "artist": "Septicflesh + Carach Angren",
+    "venue": "Valand",
+    "date": "2022-03-22 19:30",
+    "price": "395 :-",
+    "link": ""
+  },
+  {
+    "artist": "Eivør - Nytt datum!",
+    "venue": "Pustervik",
+    "date": "2022-03-23 19:00",
+    "price": "350 :-",
+    "link": ""
+  },
+  {
+    "artist": "Echo & The Bunnymen",
+    "venue": "Pustervik",
+    "date": "2022-03-24 19:00",
+    "price": "520 :-",
+    "link": ""
+  },
+  {
+    "artist": "VOLA + Port Noir + Limbo",
+    "venue": "Valand",
+    "date": "2022-03-24 19:00",
+    "price": "350 :-",
+    "link": ""
+  },
+  {
+    "artist": "Nationalteatern",
+    "venue": "Konserthuset",
+    "date": "2022-03-25 19:30",
+    "price": "495/595 :-",
+    "link": ""
+  },
+  {
+    "artist": "Kentfest 2022: Då som nu för alltid",
+    "venue": "Musikens Hus",
+    "date": "2022-03-25 21:00",
+    "price": "195 :-",
+    "link": ""
+  },
+  {
+    "artist": "Albin Lee Meldau & his band",
+    "venue": "Partille Arena",
+    "date": "2022-03-25 19:30",
+    "price": "405-605 :-",
+    "link": ""
+  },
+  {
+    "artist": "Aldous Harding",
+    "venue": "Pustervik",
+    "date": "2022-03-25 19:00",
+    "price": "320 :-",
+    "link": ""
+  },
+  {
+    "artist": "Synthsläggan 2022",
+    "venue": "Musikens Hus",
+    "date": "2022-03-26 18:00",
+    "price": "495 :-",
+    "link": ""
+  },
+  {
+    "artist": "Pale Honey",
+    "venue": "Pustervik",
+    "date": "2022-03-26 20:00",
+    "price": "205 :-",
+    "link": ""
+  },
+  {
+    "artist": "Helloween + Hammerfall",
+    "venue": "Partille Arena",
+    "date": "2022-03-26 19:30",
+    "price": "670/745 :-",
+    "link": ""
+  },
+  {
+    "artist": "Clawfinger - Nytt datum & plats!",
+    "venue": "Pustervik",
+    "date": "2022-03-27 20:00",
+    "price": "330 :-",
+    "link": ""
+  },
+  {
+    "artist": "Trentemøller",
+    "venue": "Pustervik",
+    "date": "2022-03-28 19:00",
+    "price": "350 :-",
+    "link": ""
+  },
+  {
+    "artist": "Damien Jurado",
+    "venue": "Pustervik",
+    "date": "2022-03-29 19:00",
+    "price": "305 :-",
+    "link": ""
+  },
+  {
+    "artist": "Maria Lundqvist: Om att våga flyga",
+    "venue": "Lorensbergsteatern",
+    "date": "2022-03-29 19:00",
+    "price": "545 :-",
+    "link": ""
+  },
+  {
+    "artist": "Kleerup - Nytt datum!",
+    "venue": "Pustervik",
+    "date": "2022-03-31 19:00",
+    "price": "295 :-",
+    "link": ""
+  },
+  {
+    "artist": "Eagles of Death Metal",
+    "venue": "Pustervik",
+    "date": "2022-04-02 19:00",
+    "price": "350 :-",
+    "link": ""
+  },
+  {
+    "artist": "As I Lay Dying + Dying Fetus + Emmure",
+    "venue": "Trädgår´n",
+    "date": "2022-04-02 19:00",
+    "price": "440 :-",
+    "link": ""
+  },
+  {
+    "artist": "The Weather Station",
+    "venue": "Oceanen",
+    "date": "2022-04-02 19:00",
+    "price": "225 :-",
+    "link": ""
+  },
+  {
+    "artist": "Alex Cameron",
+    "venue": "Pustervik",
+    "date": "2022-04-03 19:00",
+    "price": "320 :-",
+    "link": ""
+  },
+  {
+    "artist": "Nothing",
+    "venue": "Fängelset Härlanda",
+    "date": "2022-04-03 18:30",
+    "price": "210 :-",
+    "link": ""
+  },
+  {
+    "artist": "Räkhäst: I huvudet på Per Andersson",
+    "venue": "Lorensbergsteatern",
+    "date": "2022-04-04 19:30",
+    "price": "495-795 :-",
+    "link": ""
+  },
+  {
+    "artist": "Vikingarna",
+    "venue": "Konserthuset",
+    "date": "2022-04-08 19:30",
+    "price": "595/695 :-",
+    "link": ""
+  },
+  {
+    "artist": "Vincent Neil Emerson",
+    "venue": "Pustervik",
+    "date": "2022-04-09 18:00",
+    "price": "205 :-",
+    "link": ""
+  },
+  {
+    "artist": "Thyrfing + Wormwood + Grimner Grà",
+    "venue": "Frihamnen",
+    "date": "2022-04-09 19:00",
+    "price": "325 :-",
+    "link": ""
+  },
+  {
+    "artist": "Cordovas + Folks",
+    "venue": "Pustervik",
+    "date": "2022-04-09 20:00",
+    "price": "225 :-",
+    "link": ""
+  },
+  {
+    "artist": "1914 + Konvent + Livløs + Hiraes",
+    "venue": "Valand",
+    "date": "2022-04-13 19:00",
+    "price": "295 :-",
+    "link": ""
+  },
+  {
+    "artist": "YaYa Men",
+    "venue": "Porter Pelles",
+    "date": "2022-04-16 19:00",
+    "price": "255 :-",
+    "link": ""
+  },
+  {
+    "artist": "Dadi Freyr",
+    "venue": "Pustervik",
+    "date": "2022-04-16 20:00",
+    "price": "300 :-",
+    "link": ""
+  },
+  {
+    "artist": "God is and Astronaut - Nytt datum!",
+    "venue": "Brewhouse",
+    "date": "2022-04-16 20:00",
+    "price": "310 :-",
+    "link": ""
+  },
+  {
+    "artist": "Mayhem + Mortiis",
+    "venue": "Pustervik",
+    "date": "2022-04-19 19:00",
+    "price": "370 :-",
+    "link": ""
+  },
+  {
+    "artist": "Mdou Moctar",
+    "venue": "Nefertiti",
+    "date": "2022-04-20 19:00",
+    "price": "250 :-",
+    "link": ""
+  },
+  {
+    "artist": "Julien Baker",
+    "venue": "Pustervik",
+    "date": "2022-04-20 19:00",
+    "price": "295 :-",
+    "link": ""
+  },
+  {
+    "artist": "Mike & The Moonpies",
+    "venue": "Pustervik",
+    "date": "2022-04-21 19:00",
+    "price": "200 :-",
+    "link": ""
+  },
+  {
+    "artist": "Primordial + Naglfar + Rome",
+    "venue": "Valand",
+    "date": "2022-04-22 19:00",
+    "price": "350 :-",
+    "link": ""
+  },
+  {
+    "artist": "Teenage Fanclub - Nytt datum!",
+    "venue": "Pustervik",
+    "date": "2022-04-23 19:00",
+    "price": "375 :-",
+    "link": ""
+  },
+  {
+    "artist": "The Wannadies - Nytt datum!",
+    "venue": "Pustervik",
+    "date": "2022-04-27 19:00",
+    "price": "320 :-",
+    "link": ""
+  },
+  {
+    "artist": "A-ha - Nytt datum!",
+    "venue": "Partille Arena",
+    "date": "2022-04-28 18:00",
+    "price": "605-2005 :-",
+    "link": ""
+  },
+  {
+    "artist": "Brian Fallon & The Howling Weather - Nytt datum!",
+    "venue": "Pustervik",
+    "date": "2022-04-28 19:00",
+    "price": "320 :-",
+    "link": ""
+  },
+  {
+    "artist": "White Lies",
+    "venue": "Pustervik",
+    "date": "2022-04-29 19:00",
+    "price": "385 :-",
+    "link": ""
+  },
+  {
+    "artist": "Förtrollande med Folk & Rackare",
+    "venue": "Stenhammarsalen",
+    "date": "2022-04-29 19:30",
+    "price": "115-295 :-",
+    "link": ""
+  },
+  {
+    "artist": "Anekdoten + Soniq Circus",
+    "venue": "Musikens Hus",
+    "date": "2022-04-30 19:30",
+    "price": "395 :-",
+    "link": ""
+  },
+  {
+    "artist": "Axel Rudi Pell - Nytt datum!",
+    "venue": "Pustervik",
+    "date": "2022-05-01 19:00",
+    "price": "410 :-",
+    "link": ""
+  },
+  {
+    "artist": "Räkhäst: I huvudet på Per Andersson",
+    "venue": "Lorensbergsteatern",
+    "date": "2022-05-05 19:30",
+    "price": "495-795 :-",
+    "link": ""
+  },
+  {
+    "artist": "Joshua Radin",
+    "venue": "Pustervik",
+    "date": "2022-05-05 19:00",
+    "price": "375 :-",
+    "link": ""
+  },
+  {
+    "artist": "FM + Robin Red - Nytt datum!",
+    "venue": "Pustervik",
+    "date": "2022-05-06 19:00",
+    "price": "395 :-",
+    "link": ""
+  },
+  {
+    "artist": "Magnus Carlsson - Nya datum!",
+    "venue": "Lisebergsteatern",
+    "date": "2022-05-06 19:00",
+    "price": "705 :-",
+    "link": ""
+  },
+  {
+    "artist": "Danko Jones - Nytt datum!",
+    "venue": "Pustervik",
+    "date": "2022-05-07 19:00",
+    "price": "375 :-",
+    "link": ""
+  },
+  {
+    "artist": "Swing is in the Air",
+    "venue": "Konserthuset",
+    "date": "2022-05-08 16:00",
+    "price": "650 :-",
+    "link": ""
+  },
+  {
+    "artist": "Russell Howard",
+    "venue": "Lorensbergsteatern",
+    "date": "2022-05-09 19:30",
+    "price": "395 :-",
+    "link": ""
+  },
+  {
+    "artist": "Magnum + Theia - Nytt datum!",
+    "venue": "Pustervik",
+    "date": "2022-05-10 19:00",
+    "price": "405 :-",
+    "link": ""
+  },
+  {
+    "artist": "Karnivool - Nytt datum",
+    "venue": "Valand",
+    "date": "2022-05-10 20:00",
+    "price": "300 :-",
+    "link": ""
+  },
+  {
+    "artist": "Donny Benet - Nytt datum!",
+    "venue": "Musikens Hus",
+    "date": "2022-05-11 19:00",
+    "price": "180/200 :-",
+    "link": ""
+  },
+  {
+    "artist": "Marc Almond",
+    "venue": "Pustervik",
+    "date": "2022-05-11 19:00",
+    "price": "485 :-",
+    "link": ""
+  },
+  {
+    "artist": "Devin Townsend",
+    "venue": "Pustervik",
+    "date": "2022-05-13 19:00",
+    "price": "420 :-",
+    "link": ""
+  },
+  {
+    "artist": "L.A. Guns - Inställt!",
+    "venue": "Valand",
+    "date": "2022-05-15 19:30",
+    "price": "385 :-",
+    "link": ""
+  },
+  {
+    "artist": "Pendragon - Nytt datum!",
+    "venue": "Musikens Hus",
+    "date": "2022-05-15 19:00",
+    "price": "395 :-",
+    "link": ""
+  },
+  {
+    "artist": "OM",
+    "venue": "Pustervik",
+    "date": "2022-05-16 19:00",
+    "price": "320 :-",
+    "link": ""
+  },
+  {
+    "artist": "Dream Theater",
+    "venue": "Partille Arena",
+    "date": "2022-05-17 19:30",
+    "price": "730 :-",
+    "link": ""
+  },
+  {
+    "artist": "Russian Circles - Nytt datum!",
+    "venue": "Musikens Hus",
+    "date": "2022-05-17 19:00",
+    "price": "275 :-",
+    "link": ""
+  },
+  {
+    "artist": "The Undertones",
+    "venue": "Pustervik",
+    "date": "2022-05-20 19:00",
+    "price": "470 :-",
+    "link": ""
+  },
+  {
+    "artist": "En hyllningskonsert till Björn & Benny",
+    "venue": "Stenhammarsalen",
+    "date": "2022-05-20 19:00",
+    "price": "295 :-",
+    "link": ""
+  },
+  {
+    "artist": "Peter Pan & Wendy",
+    "venue": "Lorensbergsteatern",
+    "date": "2022-05-20 18:00",
+    "price": "100-450 :-",
+    "link": ""
+  },
+  {
+    "artist": "Dolce - Nytt datum!",
+    "venue": "Pustervik",
+    "date": "2022-05-21 21:00",
+    "price": "175 :-",
+    "link": ""
+  },
+  {
+    "artist": "Macy Gray & The California Jet Club",
+    "venue": "Pustervik",
+    "date": "2022-05-25 19:00",
+    "price": "485 :-",
+    "link": ""
+  },
+  {
+    "artist": "Keb Mo",
+    "venue": "Lorensbergsteatern",
+    "date": "2022-05-25 20:00",
+    "price": "495/595 :-",
+    "link": ""
+  },
+  {
+    "artist": "Dark Tranquillity + Ensiferum",
+    "venue": "Pustervik",
+    "date": "2022-05-26 19:00",
+    "price": "385 :-",
+    "link": ""
+  },
+  {
+    "artist": "Viagra Boys - Nytt datum!",
+    "venue": "Pustervik",
+    "date": "2022-05-28 19:00",
+    "price": "300 :-",
+    "link": ""
+  },
+  {
+    "artist": "Larkin Poe - Nytt datum!",
+    "venue": "Trädgår´n",
+    "date": "2022-06-01 19:00",
+    "price": "320 :-",
+    "link": ""
+  },
+  {
+    "artist": "KFMDM",
+    "venue": "Pustervik",
+    "date": "2022-06-01 19:00",
+    "price": "420 :-",
+    "link": ""
+  },
+  {
+    "artist": "Sarah Millican: Bobby Dazzler",
+    "venue": "Lorensbergsteatern",
+    "date": "2022-06-03 20:00",
+    "price": "400 :-",
+    "link": ""
+  },
+  {
+    "artist": "Jimmy Carr: Terribly Funny - Nytt Datum",
+    "venue": "Konserthuset",
+    "date": "2022-06-12 19:30",
+    "price": "400 :-",
+    "link": ""
+  },
+  {
+    "artist": "Neal Morse band",
+    "venue": "Pustervik",
+    "date": "2022-06-16 19:00",
+    "price": "470 :-",
+    "link": ""
+  },
+  {
+    "artist": "Marky Ramone",
+    "venue": "Musikens Hus",
+    "date": "2022-06-17 20:00",
+    "price": "275 :-",
+    "link": ""
+  },
+  {
+    "artist": "Jonah Nilsson - Nytt datum!",
+    "venue": "Pustervik",
+    "date": "2022-06-17 19:00",
+    "price": "400 :-",
+    "link": ""
+  },
+  {
+    "artist": "Brass Against",
+    "venue": "Valand",
+    "date": "2022-06-17 20:00",
+    "price": "270 :-",
+    "link": ""
+  },
+  {
+    "artist": "Mastodon",
+    "venue": "Pustervik",
+    "date": "2022-06-20 19:00",
+    "price": "485 :-",
+    "link": ""
+  },
+  {
+    "artist": "The Robert Cray Band",
+    "venue": "Pustervik",
+    "date": "2022-06-29 19:00",
+    "price": "495 :-",
+    "link": ""
+  },
+  {
+    "artist": "Rose Tattoo",
+    "venue": "Valand",
+    "date": "2022-07-18 20:00",
+    "price": "335 :-",
+    "link": ""
+  },
+  {
+    "artist": "Lagwagon + Belvedere - Nytt datum!",
+    "venue": "Pustervik",
+    "date": "2022-08-02 19:00",
+    "price": "350 :-",
+    "link": ""
+  },
+  {
+    "artist": "Electronic Summer",
+    "venue": "Brewhouse",
+    "date": "2022-08-04 18:00",
+    "price": "1195 :-",
+    "link": ""
+  },
+  {
+    "artist": "Vintage Trouble - Nytt datum!",
+    "venue": "Pustervik",
+    "date": "2022-08-05 19:00",
+    "price": "320 :-",
+    "link": ""
+  },
+  {
+    "artist": "Sanctuary",
+    "venue": "Valand",
+    "date": "2022-08-27 19:00",
+    "price": "370 :-",
+    "link": ""
+  },
+  {
+    "artist": "Dead Kennedys",
+    "venue": "Frihamnen",
+    "date": "2022-08-23 19:00",
+    "price": "400 :-",
+    "link": ""
+  },
+  {
+    "artist": "Frontline Assembly + Die Krupps",
+    "venue": "Pustervik",
+    "date": "2022-08-25 19:00",
+    "price": "420 :-",
+    "link": ""
+  },
+  {
+    "artist": "Sanctuary + Halycon Way - Nytt datum!",
+    "venue": "Valand",
+    "date": "2022-08-27 20:00",
+    "price": "405 :-",
+    "link": ""
+  },
+  {
+    "artist": "The Zombies - Nytt datum!",
+    "venue": "Råda Rum Mölnlycke",
+    "date": "2022-09-03 20:00",
+    "price": "410 :-",
+    "link": ""
+  },
+  {
+    "artist": "Whitney Rose - Nytt datum!",
+    "venue": "Pustervik",
+    "date": "2022-09-07 19:00",
+    "price": "225 :-",
+    "link": ""
+  },
+  {
+    "artist": "Perturbator + Health + Author & Punisher",
+    "venue": "Trädgår´n",
+    "date": "2021-10-29 18:00",
+    "price": "300 :-",
+    "link": ""
+  },
+  {
+    "artist": "Harlem Globetrotters - Nytt datum!",
+    "venue": "Partille Arena",
+    "date": "2022-09-23 19:30",
+    "price": "450/650 :-",
+    "link": ""
+  },
+  {
+    "artist": "Ektomorf",
+    "venue": "Valand",
+    "date": "2021-10-03 19:30",
+    "price": "385 :-",
+    "link": ""
+  },
+  {
+    "artist": "Fu Manchu - Nytt datum!",
+    "venue": "Pustervik",
+    "date": "2021-10-03 19:00",
+    "price": "265 :-",
+    "link": ""
+  },
+  {
+    "artist": "Tribulation - Nytt datum!",
+    "venue": "Valand",
+    "date": "2021-10-07 20:00",
+    "price": "335 :-",
+    "link": ""
+  },
+  {
+    "artist": "Y&T - Nytt datum & plats",
+    "venue": "Pustervik",
+    "date": "2021-10-07 19:00",
+    "price": "395 :-",
+    "link": ""
+  },
+  {
+    "artist": "Pentagram + Dun Ringill",
+    "venue": "Valand",
+    "date": "2021-10-12 19:00",
+    "price": "355 :-",
+    "link": ""
+  },
+  {
+    "artist": "Midge Ure - Nytt datum!",
+    "venue": "Pustervik",
+    "date": "2021-10-14 19:00",
+    "price": "385 :-",
+    "link": ""
+  },
+  {
+    "artist": "Arena / The Windmill - Nytt datum!",
+    "venue": "Musikens Hus",
+    "date": "2021-10-16 17:00",
+    "price": "295/195 :-",
+    "link": "Boka!"
+  },
+  {
+    "artist": "SAGA",
+    "venue": "Trädgår´n",
+    "date": "2021-10-19 20:00",
+    "price": "560 :-",
+    "link": ""
+  },
+  {
+    "artist": "Anthrax + Municipal Waste",
+    "venue": "Trädgår´n",
+    "date": "2021-10-22 18:30",
+    "price": "450 :-",
+    "link": ""
+  },
+  {
+    "artist": "Tommy Emmanuel - Nytt datum!",
+    "venue": "Lorensbergsteatern",
+    "date": "2021-10-24 19:30",
+    "price": "585/495 :-",
+    "link": "Boka!"
+  },
+  {
+    "artist": "Sonata Arctica - Nytt datum!",
+    "venue": "Valand",
+    "date": "2021-10-24 20:00",
+    "price": "410 :-",
+    "link": ""
+  },
+  {
+    "artist": "Elder + Pallbearer",
+    "venue": "Pustervik",
+    "date": "2021-10-26 19:00",
+    "price": "375 :-",
+    "link": ""
+  },
+  {
+    "artist": "Dread Sovereign + Flight of Sleipnir - Nytt datum!",
+    "venue": "The Abyss",
+    "date": "2021-10-27 19:00",
+    "price": "225 :-",
+    "link": ""
+  },
+  {
+    "artist": "STIHL Timbersports VM 2022",
+    "venue": "Partille Arena",
+    "date": "2021-10-28 16:00",
+    "price": "155-205 :-",
+    "link": ""
+  },
+  {
+    "artist": "Arch Enemy + Behemoth - Nytt datum!",
+    "venue": "Partille Arena",
+    "date": "2021-10-31 18:15",
+    "price": "660 :-",
+    "link": ""
+  },
+  {
+    "artist": "Fleshgod Apocalypse + Ex Deo",
+    "venue": "Valand",
+    "date": "2021-11-03 19:00",
+    "price": "360 :-",
+    "link": ""
+  },
+  {
+    "artist": "Johnny Cash Roadshow - Nytt datum!",
+    "venue": "Lorensbergsteatern",
+    "date": "2021-11-09 18:00",
+    "price": "595 :-",
+    "link": "Boka!"
+  },
+  {
+    "artist": "The Obsessed + Holy Life",
+    "venue": "Valand",
+    "date": "2021-11-16 19:00",
+    "price": "275 :-",
+    "link": ""
+  },
+  {
+    "artist": "Bombino - Nytt datum!",
+    "venue": "Pustervik",
+    "date": "2021-11-17 19:00",
+    "price": "375 :-",
+    "link": ""
+  },
+  {
+    "artist": "Thy Art Is Murder - Nytt datum!",
+    "venue": "Trädgår´n",
+    "date": "2021-11-23 18:20",
+    "price": "365 :-",
+    "link": ""
+  },
+  {
+    "artist": "Uriah Heep",
+    "venue": "Partille Arena",
+    "date": "2021-12-01 19:30",
+    "price": "630/730 :-",
+    "link": ""
+  },
+  {
+    "artist": "MTV Headbangers Ball Tour 2022 - Nytt datum!",
+    "venue": "Trädgår´n",
+    "date": "2021-12-05 18:00",
+    "price": "410 :-",
+    "link": ""
+  },
+  {
+    "artist": "FAUN Nytt datum!",
+    "venue": "Pustervik",
+    "date": "2022-03-05 19:00",
+    "price": "385 :-",
+    "link": ""
+  }
+]
+
+
+
+
+}

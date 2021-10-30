@@ -5,6 +5,10 @@ var monthFormatShort = DateFormat('MMM');
 var yearFormat = DateFormat('yyyy');
 var dateFormat = DateFormat('dd');
 var dayFormat = DateFormat('E');
+var timeFormat = DateFormat('hh:mm');
+
+DateTime mostRecentMonday(DateTime date) =>
+    DateTime(date.year, date.month, date.day - (date.weekday - 1));
 
 bool isToday(DateTime date) {
   final now = DateTime.now();

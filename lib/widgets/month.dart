@@ -136,8 +136,20 @@ class MonthWidget extends HookWidget {
   @override
   Widget build(BuildContext context) {
     final size = useState(const Size(0, 0));
+    final largestCellSizes = useState(const [
+      Size(0, 0),
+      Size(0, 0),
+      Size(0, 0),
+      Size(0, 0),
+      Size(0, 0),
+      Size(0, 0)
+    ]);
     bool singleColumn = isSingleColumn(context);
     double basePadding = MediaQuery.of(context).size.width * 0.1;
+
+    useEffect(() {
+      size.notifyListeners();
+    }, [size]);
 
     return SliverStack(
       children: [
@@ -175,12 +187,28 @@ class MonthWidget extends HookWidget {
                           date: month.start.add(Duration(days: index)),
                         ),
                       ),
-                    ...month.days.map(
-                      (d) => DayWidget(
-                        day: d,
-                        previousMonth: !isSameMonth(month.date, d.date),
-                      ),
-                    )
+                    ...month.days
+                        .asMap()
+                        .map(
+                          (i, d) => MapEntry(
+                            i,
+                            DayWidget(
+                              day: d,
+                              index: i,
+                              previousMonth: !isSameMonth(month.date, d.date),
+                              largestCellSize:
+                                  largestCellSizes.value[(i / 7).floor()],
+                              sizeCallback: (Size newSize) {
+                                largestCellSizes.value = []
+                                  ..addAll(largestCellSizes.value)
+                                  ..[(i / 7).floor()] = newSize;
+                                largestCellSizes.notifyListeners();
+                              },
+                            ),
+                          ),
+                        )
+                        .values
+                        .toList(),
                   ],
                 ),
               ),

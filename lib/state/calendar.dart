@@ -1,13 +1,31 @@
 import 'package:flutter/material.dart';
+import 'package:gbg_events_flutter/utils/date.dart';
 
-DateTime mostRecentMonday(DateTime date) =>
-    DateTime(date.year, date.month, date.day - (date.weekday - 1));
+class Event {
+  late String artist;
+  late String venue;
+  late DateTime date;
+
+  Event(Map<String, dynamic> json) {
+    venue = json['venue'];
+    artist = json['artist'];
+    date = DateTime.parse(json['date']);
+  }
+}
 
 class Day {
   late DateTime date;
+  late List<Event> events = [];
 
-  Day(DateTime _date) {
+  Day(DateTime _date, List<Event> allEvents) {
     date = _date;
+    allEvents.forEach((event) {
+      DateTime eventDay =
+          DateTime(event.date.year, event.date.month, event.date.day);
+      if (date == eventDay) {
+        events.add(event);
+      }
+    });
   }
 }
 
@@ -16,14 +34,15 @@ class Month {
   late DateTime date;
   List<Day> days = [];
 
-  Month(DateTime _date) {
+  Month(DateTime _date, List<Event> events) {
     date = _date;
     start = mostRecentMonday(_date);
 
     DateTime end = DateTime(_date.year, _date.month + 1);
     int daysInMonth = end.difference(start).inDays;
     for (var i = 0; i < daysInMonth; i++) {
-      days.add(Day(start.add(Duration(days: i))));
+      Day day = Day(start.add(Duration(days: i)), events);
+      days.add(day);
     }
   }
 }
@@ -33,16 +52,16 @@ class CalendarProvider with ChangeNotifier {
   List<Month> months = [];
   List<DateTime> dates = [];
 
-  void init() {
+  void init(List<Event> events) {
     DateTime now = DateTime.now();
     DateTime from = DateTime(now.year, now.month, 1);
-    // DateTime to = DateTime.now().add(const Duration(days: 365));
-
-    // int days = to.difference(DateTime.now()).inDays;
     for (var i = 0; i < 12; i++) {
       DateTime date = DateTime(from.year, from.month + i);
-      months.add(Month(date));
-      // dates.add(from.add(Duration(days: i)));
+      try {
+        months.add(Month(date, events));
+      } catch (e) {
+        print(e);
+      }
     }
   }
 
