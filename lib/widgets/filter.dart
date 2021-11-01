@@ -89,7 +89,7 @@ class Filter extends HookWidget {
 
   @override
   Widget build(BuildContext context) {
-    ValueNotifier<bool> active = useState(true);
+    ValueNotifier<bool> active = useState(false);
     double size = active.value ? 600 : 60;
     double top = active.value ? 128 : 0;
 
