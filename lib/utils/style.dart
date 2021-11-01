@@ -44,5 +44,6 @@ class Styling {
     Layout
   */
   static const double defaultSpacing = 8.0;
+  static const double largeSpacing = 7 * defaultSpacing;
   static const SizedBox defaultSpacer = SizedBox(height: defaultSpacing);
 }

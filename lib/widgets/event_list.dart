@@ -57,32 +57,42 @@ class EventList extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       constraints: const BoxConstraints(maxHeight: 250),
-      child: ShaderMask(
-        shaderCallback: (Rect rect) {
-          return const LinearGradient(
-            begin: Alignment.topCenter,
-            end: Alignment.bottomCenter,
-            colors: [
-              Colors.purple,
-              Colors.transparent,
-              Colors.transparent,
-              Colors.purple
-            ],
-            stops: [0.0, 0.05, 0.85, 1.0],
-          ).createShader(rect);
-        },
-        blendMode: BlendMode.dstOut,
-        child: ListView(
-          shrinkWrap: true,
-          children: events
-              .map(
-                (e) => EventWidget(
-                  event: e,
-                ),
-              )
-              .toList(),
-        ),
+      child: ListView(
+        shrinkWrap: true,
+        children: events
+            .map(
+              (e) => EventWidget(
+                event: e,
+              ),
+            )
+            .toList(),
       ),
+      // child: ShaderMask(
+      //   shaderCallback: (Rect rect) {
+      //     return const LinearGradient(
+      //       begin: Alignment.topCenter,
+      //       end: Alignment.bottomCenter,
+      //       colors: [
+      //         Colors.purple,
+      //         Colors.transparent,
+      //         Colors.transparent,
+      //         Colors.purple
+      //       ],
+      //       stops: [0.0, 0.05, 0.85, 1.0],
+      //     ).createShader(rect);
+      //   },
+      //   blendMode: BlendMode.dstOut,
+      //   child: ListView(
+      //     shrinkWrap: true,
+      //     children: events
+      //         .map(
+      //           (e) => EventWidget(
+      //             event: e,
+      //           ),
+      //         )
+      //         .toList(),
+      //   ),
+      // ),
     );
   }
 }

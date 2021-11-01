@@ -12,15 +12,18 @@ import 'package:gbg_events_flutter/widgets/day.dart';
 import 'package:gbg_events_flutter/widgets/weekday.dart';
 import 'package:gbg_events_flutter/widgets/widget_size.dart';
 import 'package:sliver_tools/sliver_tools.dart';
+import 'package:waterfall_flow/waterfall_flow.dart';
 
 class _SliverAppBarDelegate extends SliverPersistentHeaderDelegate {
   _SliverAppBarDelegate(
       {required this.collapsedHeight,
       required this.expandedHeight,
+      required this.topPadding,
       required this.date});
 
   final double expandedHeight;
   final double collapsedHeight;
+  final double topPadding;
   final DateTime date;
 
   @override
@@ -35,11 +38,12 @@ class _SliverAppBarDelegate extends SliverPersistentHeaderDelegate {
 
     double basePadding = MediaQuery.of(context).size.width * 0.1;
     double padding = math.max(
-        basePadding - shrinkOffset, singleColumn ? 0 : basePadding / 2.5);
+        basePadding - (shrinkOffset * 2), singleColumn ? 0 : basePadding / 2.5);
+    double top = math.min(math.pow(shrinkOffset, 4) / 500000, topPadding);
 
     if (shrinkOffset > 10) {
       return Padding(
-        padding: EdgeInsets.only(left: padding),
+        padding: EdgeInsets.only(left: padding, top: top),
         child: Align(
           alignment: Alignment.topLeft,
           child: SizedBox(
@@ -64,7 +68,13 @@ class _SliverAppBarDelegate extends SliverPersistentHeaderDelegate {
                 ),
                 Text(
                   yearFormat.format(date).toUpperCase(),
-                  style: Styling.headingStyle,
+                  style: const TextStyle(
+                    fontFamily: 'Cormorant',
+                    fontSize: 34,
+                    fontWeight: FontWeight.w700,
+                    color: Styling.primaryTextColor,
+                    height: 0.8,
+                  ),
                 ),
               ],
             ),
@@ -111,6 +121,8 @@ class _SliverAppBarDelegate extends SliverPersistentHeaderDelegate {
 class MonthHeader extends StatelessWidget {
   final Month month;
   final Size gridSize;
+  final double height = 80;
+  final double topPadding = 24;
 
   const MonthHeader({Key? key, required this.month, required this.gridSize})
       : super(key: key);
@@ -120,8 +132,9 @@ class MonthHeader extends StatelessWidget {
     return SliverPersistentHeader(
       delegate: _SliverAppBarDelegate(
         date: month.date,
-        collapsedHeight: 100,
-        expandedHeight: gridSize.height,
+        collapsedHeight: height + topPadding,
+        expandedHeight: gridSize.height + 80,
+        topPadding: topPadding,
       ),
     );
   }
@@ -146,17 +159,18 @@ class MonthWidget extends HookWidget {
     bool singleColumn = isSingleColumn(context);
     double basePadding = MediaQuery.of(context).size.width * 0.1;
 
-    return SliverStack(
-      children: [
-        MonthHeader(
-          month: month,
-          gridSize: size.value,
-        ),
-        MultiSliver(
-          children: [
-            Padding(
+    return SliverPadding(
+      padding: const EdgeInsets.only(top: Styling.largeSpacing),
+      sliver: SliverStack(
+        children: [
+          MonthHeader(
+            month: month,
+            gridSize: size.value,
+          ),
+          SliverToBoxAdapter(
+            child: Padding(
               padding: EdgeInsets.only(
-                top: 120,
+                top: Styling.largeSpacing + 44,
                 left: singleColumn ? basePadding * 2 : basePadding,
                 right: singleColumn ? 25 : basePadding,
               ),
@@ -164,57 +178,43 @@ class MonthWidget extends HookWidget {
                 onChange: (Size s) {
                   size.value = s;
                 },
-                child: StaggeredGridView.count(
-                  addAutomaticKeepAlives: false,
-                  crossAxisCount: 7,
-                  crossAxisSpacing: 20,
+                child: WaterfallFlow.builder(
+                  cacheExtent: 0.0,
                   shrinkWrap: true,
-                  staggeredTiles: [
-                    if (!singleColumn)
-                      ...List.generate(7, (_) => const StaggeredTile.fit(1)),
-                    ...month.days
-                        .map((_) => StaggeredTile.fit(singleColumn ? 7 : 1))
-                  ],
-                  children: [
-                    if (!singleColumn)
-                      ...List.generate(
-                        7,
-                        (index) => WeekDay(
-                          date: month.start.add(Duration(days: index)),
-                        ),
-                      ),
-                    ...month.days
-                        .asMap()
-                        .map(
-                          (i, d) => MapEntry(
-                            i,
-                            DayWidget(
-                              day: d,
-                              index: i,
-                              previousMonth: !isSameMonth(month.date, d.date),
-                              largestCellSize:
-                                  largestCellSizes.value[(i / 7).floor()],
-                              sizeCallback: (Size newSize) {
-                                Size oldSize =
-                                    largestCellSizes.value[(i / 7).floor()];
-                                if (newSize.height > oldSize.height) {
-                                  largestCellSizes.value = []
-                                    ..addAll(largestCellSizes.value)
-                                    ..[(i / 7).floor()] = newSize;
-                                }
-                              },
-                            ),
-                          ),
-                        )
-                        .values
-                        .toList(),
-                  ],
+                  gridDelegate:
+                      const SliverWaterfallFlowDelegateWithFixedCrossAxisCount(
+                          crossAxisCount: 7,
+                          crossAxisSpacing: Styling.defaultSpacing * 3,
+                          mainAxisSpacing: Styling.defaultSpacing),
+                  itemCount: month.days.length + 7,
+                  itemBuilder: (BuildContext ctx, int index) {
+                    if (index < 7) {
+                      return WeekDay(
+                        date: month.start.add(Duration(days: index)),
+                      );
+                    }
+                    int i = index - 7;
+                    return DayWidget(
+                      day: month.days[i],
+                      index: i,
+                      previousMonth:
+                          !isSameMonth(month.date, month.days[i].date),
+                      largestCellSize: largestCellSizes.value[(i / 7).floor()],
+                      sizeCallback: (Size newSize) {
+                        Size oldSize = largestCellSizes.value[(i / 7).floor()];
+                        if (newSize.height > oldSize.height) {
+                          largestCellSizes.value = [...largestCellSizes.value]
+                            ..[(i / 7).floor()] = newSize;
+                        }
+                      },
+                    );
+                  },
                 ),
               ),
             ),
-          ],
-        ),
-      ],
+          ),
+        ],
+      ),
     );
   }
 }
