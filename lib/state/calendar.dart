@@ -26,6 +26,7 @@ class Day {
         events.add(event);
       }
     });
+    events.sort((a, b) => a.date.difference(b.date).inSeconds);
   }
 }
 
@@ -49,10 +50,24 @@ class Month {
 
 class CalendarProvider with ChangeNotifier {
   int counter = 0;
+  List<Event> events = [];
   List<Month> months = [];
   List<DateTime> dates = [];
+  List<String> venuesFilter = [];
 
-  void init(List<Event> events) {
+  List<Month> get filteredMonths {
+    List<Event> filteredEvents = events.where((event) {
+      return true;
+      // return event.venue == 'Pustervik';
+    }).toList();
+
+    return months.map((month) {
+      return Month(month.date, filteredEvents);
+    }).toList();
+  }
+
+  void init(List<Event> _events) {
+    events = _events;
     DateTime now = DateTime.now();
     DateTime from = DateTime(now.year, now.month, 1);
     for (var i = 0; i < 12; i++) {
@@ -65,8 +80,8 @@ class CalendarProvider with ChangeNotifier {
     }
   }
 
-  void increment() {
-    counter++;
+  void toggleVenue(String key) {
+    // venuesFilter.
     notifyListeners();
   }
 }

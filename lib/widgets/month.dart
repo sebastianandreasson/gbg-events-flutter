@@ -6,6 +6,7 @@ import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 import 'package:gbg_events_flutter/state/calendar.dart';
 import 'package:gbg_events_flutter/utils/date.dart';
 import 'package:gbg_events_flutter/utils/layout.dart';
+import 'package:gbg_events_flutter/utils/style.dart';
 import 'package:gbg_events_flutter/widgets/day.dart';
 import 'package:gbg_events_flutter/widgets/weekday.dart';
 import 'package:gbg_events_flutter/widgets/widget_size.dart';
@@ -46,26 +47,18 @@ class _SliverAppBarDelegate extends SliverPersistentHeaderDelegate {
               children: [
                 Text(
                   monthFormatShort.format(date).toUpperCase(),
-                  style: const TextStyle(
-                    fontFamily: 'Cormorant',
-                    fontSize: 34,
-                    fontWeight: FontWeight.w700,
-                  ),
+                  style: Styling.headingStyle,
                 ),
                 SizedBox(
                   height: 1,
                   width: 50,
                   child: Container(
-                    color: Colors.black,
+                    color: Styling.primaryTextColor,
                   ),
                 ),
                 Text(
                   yearFormat.format(date).toUpperCase(),
-                  style: const TextStyle(
-                    fontFamily: 'Cormorant',
-                    fontSize: 34,
-                    fontWeight: FontWeight.w700,
-                  ),
+                  style: Styling.headingStyle,
                 ),
               ],
             ),
@@ -82,20 +75,12 @@ class _SliverAppBarDelegate extends SliverPersistentHeaderDelegate {
         children: [
           Text(
             monthFormat.format(date).toUpperCase(),
-            style: const TextStyle(
-              fontFamily: 'Cormorant',
-              fontSize: 34,
-              fontWeight: FontWeight.w700,
-            ),
+            style: Styling.headingStyle,
           ),
-          const SizedBox(width: 10),
+          Styling.defaultSpacer,
           Text(
             yearFormat.format(date),
-            style: const TextStyle(
-              fontFamily: 'Cormorant',
-              fontSize: 34,
-              fontWeight: FontWeight.w700,
-            ),
+            style: Styling.headingStyle,
           ),
         ],
       ),
@@ -147,9 +132,9 @@ class MonthWidget extends HookWidget {
     bool singleColumn = isSingleColumn(context);
     double basePadding = MediaQuery.of(context).size.width * 0.1;
 
-    useEffect(() {
-      size.notifyListeners();
-    }, [size]);
+    // useEffect(() {
+    //   size.notifyListeners();
+    // }, [size]);
 
     return SliverStack(
       children: [
@@ -199,10 +184,13 @@ class MonthWidget extends HookWidget {
                               largestCellSize:
                                   largestCellSizes.value[(i / 7).floor()],
                               sizeCallback: (Size newSize) {
-                                largestCellSizes.value = []
-                                  ..addAll(largestCellSizes.value)
-                                  ..[(i / 7).floor()] = newSize;
-                                largestCellSizes.notifyListeners();
+                                Size oldSize =
+                                    largestCellSizes.value[(i / 7).floor()];
+                                if (newSize.height > oldSize.height) {
+                                  largestCellSizes.value = []
+                                    ..addAll(largestCellSizes.value)
+                                    ..[(i / 7).floor()] = newSize;
+                                }
                               },
                             ),
                           ),

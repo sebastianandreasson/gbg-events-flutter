@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:gbg_events_flutter/screens/home.dart';
+import 'package:gbg_events_flutter/utils/style.dart';
 
 class App extends StatelessWidget {
   const App({Key? key}) : super(key: key);
@@ -9,9 +10,9 @@ class App extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-        primarySwatch: Colors.red,
+        primarySwatch: Styling.primarySwatch,
         fontFamily: 'Montserrat',
-        scaffoldBackgroundColor: Color.fromARGB(255, 248, 241, 224),
+        scaffoldBackgroundColor: Styling.backgroundColor,
       ),
       home: const Home(),
     );

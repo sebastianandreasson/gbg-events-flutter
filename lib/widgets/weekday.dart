@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:gbg_events_flutter/utils/date.dart';
+import 'package:gbg_events_flutter/utils/style.dart';
 
 class WeekDay extends StatelessWidget {
   final DateTime date;
@@ -14,7 +15,8 @@ class WeekDay extends StatelessWidget {
         dayFormat.format(date).toUpperCase(),
         style: const TextStyle(
           fontSize: 14,
-          fontWeight: FontWeight.w600,
+          fontWeight: FontWeight.w700,
+          color: Styling.secondaryTextColor,
         ),
       ),
     );

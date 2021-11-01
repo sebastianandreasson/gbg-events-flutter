@@ -2,37 +2,9 @@ import 'dart:math' as math;
 import 'package:flutter/material.dart';
 import 'package:gbg_events_flutter/state/calendar.dart';
 import 'package:gbg_events_flutter/utils/date.dart';
+import 'package:gbg_events_flutter/utils/style.dart';
+import 'package:gbg_events_flutter/widgets/event_list.dart';
 import 'package:gbg_events_flutter/widgets/widget_size.dart';
-
-class EventWidget extends StatelessWidget {
-  final Event event;
-
-  const EventWidget({Key? key, required this.event}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.only(top: 8.0),
-      child: Column(
-        mainAxisAlignment: MainAxisAlignment.start,
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Text(
-            event.artist,
-            style: const TextStyle(
-              fontWeight: FontWeight.w600,
-            ),
-          ),
-          const SizedBox(height: 10),
-          Text(event.venue),
-          const SizedBox(height: 10),
-          Text(timeFormat.format(event.date)),
-          const SizedBox(height: 20),
-        ],
-      ),
-    );
-  }
-}
 
 typedef void SizeLayoutCallback(Size newSize);
 
@@ -55,10 +27,10 @@ class DayWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     Color color = previousMonth
-        ? Colors.black26
+        ? Styling.secondaryTextColor.withOpacity(0.4)
         : isToday(day.date)
-            ? Colors.red
-            : Colors.black;
+            ? Styling.primaryColor
+            : Styling.secondaryTextColor;
 
     return WidgetSize(
       onChange: (Size s) {
@@ -79,7 +51,7 @@ class DayWidget extends StatelessWidget {
                 color: color,
               ),
             ),
-            const SizedBox(height: 10),
+            Styling.defaultSpacer,
             Text(
               dateFormat.format(day.date),
               textAlign: TextAlign.left,
@@ -89,7 +61,7 @@ class DayWidget extends StatelessWidget {
                 color: color,
               ),
             ),
-            ...day.events.map((e) => EventWidget(event: e)),
+            EventList(events: day.events),
           ],
         ),
       ),

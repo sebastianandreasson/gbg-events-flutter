@@ -5,7 +5,7 @@ var monthFormatShort = DateFormat('MMM');
 var yearFormat = DateFormat('yyyy');
 var dateFormat = DateFormat('dd');
 var dayFormat = DateFormat('E');
-var timeFormat = DateFormat('hh:mm');
+var timeFormat = DateFormat('HH:mm');
 
 DateTime mostRecentMonday(DateTime date) =>
     DateTime(date.year, date.month, date.day - (date.weekday - 1));

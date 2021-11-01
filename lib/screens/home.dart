@@ -8,21 +8,20 @@ class Home extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    List<Month> months = context.watch<CalendarProvider>().months;
+    List<Month> months = context.watch<CalendarProvider>().filteredMonths;
 
     return Scaffold(
-      body: CustomScrollView(
-        slivers: [
-          ...months.map(
-            (m) => MonthWidget(
-              month: m,
-            ),
-          )
-        ],
-      ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: () => context.read<CalendarProvider>().increment(),
-        child: const Icon(Icons.add),
+      body: Padding(
+        padding: const EdgeInsets.only(top: 56),
+        child: CustomScrollView(
+          slivers: [
+            ...months.map(
+              (m) => MonthWidget(
+                month: m,
+              ),
+            )
+          ],
+        ),
       ),
     );
   }
