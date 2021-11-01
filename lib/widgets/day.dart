@@ -1,4 +1,3 @@
-import 'dart:math' as math;
 import 'package:flutter/material.dart';
 import 'package:gbg_events_flutter/state/calendar.dart';
 import 'package:gbg_events_flutter/utils/date.dart';
@@ -6,7 +5,7 @@ import 'package:gbg_events_flutter/utils/style.dart';
 import 'package:gbg_events_flutter/widgets/event_list.dart';
 import 'package:gbg_events_flutter/widgets/widget_size.dart';
 
-typedef void SizeLayoutCallback(Size newSize);
+typedef SizeLayoutCallback = void Function(Size newSize);
 
 class DayWidget extends StatelessWidget {
   final Day day;

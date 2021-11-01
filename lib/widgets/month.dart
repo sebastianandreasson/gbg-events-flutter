@@ -3,7 +3,6 @@ import 'dart:math' as math;
 import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
-import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 import 'package:gbg_events_flutter/state/calendar.dart';
 import 'package:gbg_events_flutter/utils/date.dart';
 import 'package:gbg_events_flutter/utils/layout.dart';
@@ -182,18 +181,19 @@ class MonthWidget extends HookWidget {
                   cacheExtent: 0.0,
                   shrinkWrap: true,
                   gridDelegate:
-                      const SliverWaterfallFlowDelegateWithFixedCrossAxisCount(
-                          crossAxisCount: 7,
+                      SliverWaterfallFlowDelegateWithFixedCrossAxisCount(
+                          crossAxisCount: singleColumn ? 1 : 7,
                           crossAxisSpacing: Styling.defaultSpacing * 3,
                           mainAxisSpacing: Styling.defaultSpacing),
-                  itemCount: month.days.length + 7,
+                  itemCount:
+                      singleColumn ? month.days.length : month.days.length + 7,
                   itemBuilder: (BuildContext ctx, int index) {
-                    if (index < 7) {
+                    if (!singleColumn && index < 7) {
                       return WeekDay(
                         date: month.start.add(Duration(days: index)),
                       );
                     }
-                    int i = index - 7;
+                    int i = index - (singleColumn ? 0 : 7);
                     return DayWidget(
                       day: month.days[i],
                       index: i,

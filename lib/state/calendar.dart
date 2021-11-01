@@ -66,6 +66,10 @@ class CalendarProvider with ChangeNotifier {
     }).toList();
   }
 
+  List<String> get venues {
+    return events.map((e) => e.venue).toSet().toList();
+  }
+
   void init(List<Event> _events) {
     events = _events;
     DateTime now = DateTime.now();
