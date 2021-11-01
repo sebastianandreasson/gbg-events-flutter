@@ -39,28 +39,45 @@ class FilterContent extends StatelessWidget {
         children: [
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              MultiSelectDialogField(
-                title: const Text(
-                  'Venue',
-                  style: TextStyle(
-                    color: Styling.primaryTextColor,
+              SizedBox(
+                width: 225,
+                child: MultiSelectDialogField(
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(5),
+                    border: Border.all(
+                      color: Colors.white,
+                      width: 2,
+                    ),
                   ),
-                ),
-                buttonText: const Text(
-                  'Venue',
-                  style: TextStyle(
+                  title: const Text(
+                    'Venue',
+                    style: TextStyle(
+                      color: Styling.primaryTextColor,
+                    ),
+                  ),
+                  buttonText: const Text(
+                    'Venue',
+                    style: TextStyle(
+                      color: Colors.white,
+                    ),
+                  ),
+                  buttonIcon: const Icon(
+                    Icons.keyboard_arrow_down_outlined,
                     color: Colors.white,
                   ),
+                  searchHint: 'Select venue',
+                  items: venues
+                      .map((name) => MultiSelectItem(name, name))
+                      .toList(),
+                  initialValue: [],
+                  onConfirm: (items) {
+                    List<String> venues =
+                        items.map((e) => e.toString()).toList();
+                    context.read<CalendarProvider>().setVenuesFilter(venues);
+                  },
                 ),
-                buttonIcon: const Icon(
-                  Icons.keyboard_arrow_down_outlined,
-                  color: Colors.white,
-                ),
-                searchHint: 'Select venue',
-                items:
-                    venues.map((name) => MultiSelectItem(name, name)).toList(),
-                onConfirm: (items) {},
               ),
               InkWell(
                 onTap: onTap,
@@ -107,10 +124,11 @@ class Filter extends HookWidget {
           height: size,
           padding: const EdgeInsets.all(Styling.defaultSpacing),
           child: FilterContent(
-              active: active.value,
-              onTap: () {
-                active.value = !active.value;
-              }),
+            active: active.value,
+            onTap: () {
+              active.value = !active.value;
+            },
+          ),
         ),
       ),
     );

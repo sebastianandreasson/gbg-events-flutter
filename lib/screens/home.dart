@@ -11,23 +11,19 @@ class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     List<Month> months = context.watch<CalendarProvider>().filteredMonths;
+    // context.watch<CalendarProvider>().venuesFilter;
+    print('redraw');
 
     return Scaffold(
       body: Stack(
         children: [
           CustomScrollView(
             slivers: [
-              MonthWidget(
-                month: months[0],
-              ),
-              MonthWidget(
-                month: months[1],
+              ...months.map(
+                (m) => MonthWidget(
+                  month: m,
+                ),
               )
-              // ...months.map(
-              //   (m) => MonthWidget(
-              //     month: m,
-              //   ),
-              // )
             ],
           ),
           const Filter(),

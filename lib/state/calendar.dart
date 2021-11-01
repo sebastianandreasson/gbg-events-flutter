@@ -57,8 +57,8 @@ class CalendarProvider with ChangeNotifier {
 
   List<Month> get filteredMonths {
     List<Event> filteredEvents = events.where((event) {
-      return true;
-      // return event.venue == 'Pustervik';
+      if (venuesFilter.isEmpty) return true;
+      return venuesFilter.contains(event.venue);
     }).toList();
 
     return months.map((month) {
@@ -84,8 +84,8 @@ class CalendarProvider with ChangeNotifier {
     }
   }
 
-  void toggleVenue(String key) {
-    // venuesFilter.
+  void setVenuesFilter(List<String> venues) {
+    venuesFilter = venues;
     notifyListeners();
   }
 }
