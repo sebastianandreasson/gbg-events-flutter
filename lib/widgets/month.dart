@@ -165,6 +165,7 @@ class MonthWidget extends HookWidget {
                   size.value = s;
                 },
                 child: StaggeredGridView.count(
+                  addAutomaticKeepAlives: false,
                   crossAxisCount: 7,
                   crossAxisSpacing: 20,
                   shrinkWrap: true,
