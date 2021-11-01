@@ -68,7 +68,7 @@ class EventList extends StatelessWidget {
               Colors.transparent,
               Colors.purple
             ],
-            stops: [0.0, 0.15, 0.85, 1.0],
+            stops: [0.0, 0.05, 0.85, 1.0],
           ).createShader(rect);
         },
         blendMode: BlendMode.dstOut,

@@ -1,5 +1,6 @@
 import 'dart:math' as math;
 
+import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
@@ -45,9 +46,14 @@ class _SliverAppBarDelegate extends SliverPersistentHeaderDelegate {
             width: 100,
             child: Column(
               children: [
-                Text(
-                  monthFormatShort.format(date).toUpperCase(),
-                  style: Styling.headingStyle,
+                AnimatedTextKit(
+                  animatedTexts: [
+                    TyperAnimatedText(
+                      monthFormatShort.format(date).toUpperCase(),
+                      textStyle: Styling.headingStyle,
+                    )
+                  ],
+                  isRepeatingAnimation: false,
                 ),
                 SizedBox(
                   height: 1,
@@ -73,14 +79,22 @@ class _SliverAppBarDelegate extends SliverPersistentHeaderDelegate {
       ),
       child: Row(
         children: [
-          Text(
-            monthFormat.format(date).toUpperCase(),
-            style: Styling.headingStyle,
+          AnimatedTextKit(
+            animatedTexts: [
+              TyperAnimatedText(
+                monthFormat.format(date).toUpperCase(),
+                textStyle: Styling.headingStyle,
+                curve: Curves.easeOut,
+              )
+            ],
+            isRepeatingAnimation: false,
           ),
-          Styling.defaultSpacer,
-          Text(
-            yearFormat.format(date),
-            style: Styling.headingStyle,
+          Padding(
+            padding: const EdgeInsets.only(left: Styling.defaultSpacing),
+            child: Text(
+              yearFormat.format(date),
+              style: Styling.headingStyle,
+            ),
           ),
         ],
       ),
@@ -131,10 +145,6 @@ class MonthWidget extends HookWidget {
     ]);
     bool singleColumn = isSingleColumn(context);
     double basePadding = MediaQuery.of(context).size.width * 0.1;
-
-    // useEffect(() {
-    //   size.notifyListeners();
-    // }, [size]);
 
     return SliverStack(
       children: [
