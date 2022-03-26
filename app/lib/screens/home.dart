@@ -6,13 +6,14 @@ import 'package:provider/provider.dart';
 import 'package:gbg_events_flutter/state/calendar.dart';
 
 class Home extends StatelessWidget {
-  const Home({Key? key}) : super(key: key);
+  final Widget? event;
+
+  const Home({Key? key, this.event}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     List<Month> months = context.watch<CalendarProvider>().filteredMonths;
     // context.watch<CalendarProvider>().venuesFilter;
-    print('redraw');
 
     return Scaffold(
       body: Stack(
@@ -27,6 +28,7 @@ class Home extends StatelessWidget {
             ],
           ),
           const Filter(),
+          if (event != null) event!,
         ],
       ),
     );

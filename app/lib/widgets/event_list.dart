@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:gbg_events_flutter/state/calendar.dart';
 import 'package:gbg_events_flutter/utils/date.dart';
 import 'package:gbg_events_flutter/utils/style.dart';
+import 'package:go_router/go_router.dart';
 
 class EventWidget extends StatelessWidget {
   final Event event;
@@ -10,39 +11,44 @@ class EventWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.only(top: Styling.defaultSpacing),
-      child: Column(
-        mainAxisAlignment: MainAxisAlignment.start,
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Text(
-            event.artist,
-            style: const TextStyle(
-              fontWeight: FontWeight.w600,
-              fontSize: 14,
+    return GestureDetector(
+      onTap: () {
+        context.pushNamed('event', params: {'id': event.id});
+      },
+      child: Padding(
+        padding: const EdgeInsets.only(top: Styling.defaultSpacing),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.start,
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Text(
+              event.artist,
+              style: const TextStyle(
+                fontWeight: FontWeight.w600,
+                fontSize: 14,
+              ),
             ),
-          ),
-          Styling.defaultSpacer,
-          Text(
-            event.venue,
-            style: const TextStyle(
-              fontWeight: FontWeight.w500,
-              fontSize: 12,
-              color: Styling.primaryTextColor,
+            Styling.defaultSpacer,
+            Text(
+              event.venue,
+              style: const TextStyle(
+                fontWeight: FontWeight.w500,
+                fontSize: 12,
+                color: Styling.primaryTextColor,
+              ),
             ),
-          ),
-          Styling.defaultSpacer,
-          Text(
-            timeFormat.format(event.date),
-            style: const TextStyle(
-              fontWeight: FontWeight.w500,
-              fontSize: 12,
-              color: Styling.primaryTextColor,
+            Styling.defaultSpacer,
+            Text(
+              timeFormat.format(event.date),
+              style: const TextStyle(
+                fontWeight: FontWeight.w500,
+                fontSize: 12,
+                color: Styling.primaryTextColor,
+              ),
             ),
-          ),
-          const SizedBox(height: Styling.defaultSpacing * 2),
-        ],
+            const SizedBox(height: Styling.defaultSpacing * 2),
+          ],
+        ),
       ),
     );
   }

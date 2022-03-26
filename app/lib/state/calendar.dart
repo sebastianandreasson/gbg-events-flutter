@@ -1,12 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:gbg_events_flutter/utils/date.dart';
+import 'package:uuid/uuid.dart';
 
 class Event {
+  late String id;
   late String artist;
   late String venue;
   late DateTime date;
 
   Event(Map<String, dynamic> json) {
+    id = Uuid().v4();
     venue = json['venue'];
     artist = json['artist'];
     date = DateTime.parse(json['date']);
@@ -87,5 +90,9 @@ class CalendarProvider with ChangeNotifier {
   void setVenuesFilter(List<String> venues) {
     venuesFilter = venues;
     notifyListeners();
+  }
+
+  Event? getEvent(String id) {
+    return events.firstWhere((e) => e.id == id);
   }
 }
