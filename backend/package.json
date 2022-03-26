@@ -1,0 +1,29 @@
+{
+  "name": "gbgevents-api",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "keystone dev",
+    "migrate-init": "keystone prisma migrate dev --name init",
+    "migrate-prod": "keystone prisma migrate deploy",
+    "migrate": "keystone prisma migrate dev",
+    "start": "keystone start",
+    "build": "keystone build",
+    "postinstall": "keystone postinstall"
+  },
+  "dependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-typescript": "^7.16.7",
+    "@keystone-6/auth": "^1.0.2",
+    "@keystone-6/core": "^1.0.1",
+    "@keystone-6/fields-document": "^1.0.1",
+    "dotenv": "^15.0.0",
+    "styled-components": "^5.3.3",
+    "typescript": "^4.5.4",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@types/styled-components": "^5.1.21"
+  }
+}

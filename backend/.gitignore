@@ -1,0 +1,8 @@
+node_modules
+.keystone
+.keystone/admin
+keystone.db
+*.log
+.env
+src/push/cert
+public/images
